@@ -1,12 +1,16 @@
 # Agents Guide for Smoothie Blender Guide
 
+Date: 01 October 2025
+
 ## Commands
+
 - **dev**: `npm run dev` - Start development server on localhost:4321
 - **build**: `npm run build` - Build for production
 - **preview**: `npm run preview` - Preview production build
 - **no tests**: No test scripts configured in package.json
 
 ## Architecture
+
 - **Astro v5** blog site with MDX, RSS, sitemap generation
 - **Content Collections**: posts/, authors/, pages/, about/ in src/content/
 - **Config**: site.ts, menu.json, social.json in src/config/
@@ -16,8 +20,9 @@
 - **Assets**: Images in src/assets/, public/ for static files
 
 ## Code Style
+
 - **TypeScript**: Strict mode via astro/tsconfigs/strict
-- **Path aliases**: @components/*, @layouts/*, @config/*, @utils/*, @styles/*, @assets/*
+- **Path aliases**: @components/_, @layouts/_, @config/_, @utils/_, @styles/_, @assets/_
 - **Content schema**: Zod validation in src/content/config.ts
 - **Naming**: kebab-case for files, camelCase for variables, PascalCase for components
 - **Imports**: Use path aliases, group by external/internal
@@ -25,14 +30,21 @@
 - **Frontmatter**: Required title, optional meta_title, description, image, authors[], categories[], tags[]
 
 ## Content Guidelines for Smoothie Blender Articles
+
 - **Focus**: Informative, practical content about smoothie blenders, recipes, nutrition, maintenance
 - **Structure**: Use clear headings, bullet points, step-by-step instructions where applicable
 - **SEO**: Include relevant smoothie/blender keywords naturally in titles and content
 - **Helpful tone**: Write as an expert guide helping readers make informed decisions
 - **Product reviews**: Include pros/cons, specifications, comparison tables
 - **Recipes**: List ingredients, nutritional benefits, preparation steps
+- **Tags**: Don't use more then 3 tags per article.
+- **Links**: Include internal links in article as natural as possible, aim for 3 to5 links per article, the public/links.txt has the list with articles.
+- **Widgets**: Include in article the widgets created under widget section, don't use to much to not make the article not readable.
+- **Image**: Create an svg image for the mdx article and store it in the assets/images. Make it simple and look nice without to much elements and a short text that is bigger and visible on any device with maximum 5 words. Use a nice background with a lighter colour that looks nice 16:9 format.
+
 
 ## Available Widgets (import from @components/widgets/)
+
 - **Accordion**: `<Accordion label="FAQ Title" group="faq" expanded="true">content</Accordion>`
 - **Button**: `<Button text="Click Here" link="/url" variant="solid" color="blue" size="md" icon="arrow-right" />`
 - **Notice**: `<Notice type="info|success|warning|error" title="Important">content</Notice>`
