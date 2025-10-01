@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bfdbfe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg-gradient)"/>
+  
+  <!-- Blender with sound shield (left) -->
+  <g transform="translate(200, 200)">
+    <!-- Base -->
+    <rect x="40" y="400" width="140" height="80" rx="8" fill="#1e293b"/>
+    <circle cx="110" cy="440" r="10" fill="#3b82f6"/>
+    <!-- Sound Shield -->
+    <path d="M 30 150 L 30 400 L 190 400 L 190 150 Z" fill="#60a5fa" opacity="0.3" stroke="#3b82f6" stroke-width="3"/>
+    <!-- Jar inside shield -->
+    <path d="M 70 250 L 60 390 L 160 390 L 150 250 Z" fill="#3b82f6" opacity="0.6"/>
+    <ellipse cx="110" cy="250" rx="40" ry="12" fill="#3b82f6" opacity="0.7"/>
+    <ellipse cx="110" cy="375" rx="25" ry="8" fill="#475569"/>
+    <!-- Shield handle -->
+    <rect x="185" y="270" width="15" height="60" rx="3" fill="#64748b"/>
+  </g>
+  
+  <!-- Sound wave icon with slash (center-left) -->
+  <g transform="translate(480, 350)">
+    <!-- Sound waves -->
+    <path d="M 20 40 Q 30 30 40 40 Q 30 50 20 40" fill="none" stroke="#94a3b8" stroke-width="6" opacity="0.5"/>
+    <path d="M 10 40 Q 30 15 50 40 Q 30 65 10 40" fill="none" stroke="#94a3b8" stroke-width="6" opacity="0.5"/>
+    <path d="M 0 40 Q 30 0 60 40 Q 30 80 0 40" fill="none" stroke="#94a3b8" stroke-width="6" opacity="0.5"/>
+    <!-- Slash -->
+    <line x1="0" y1="70" x2="60" y2="10" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Standard blender (center) -->
+  <g transform="translate(700, 220)">
+    <!-- Base -->
+    <rect x="35" y="380" width="130" height="70" rx="7" fill="#1e293b"/>
+    <circle cx="100" cy="415" r="9" fill="#3b82f6"/>
+    <!-- Jar -->
+    <path d="M 60 200 L 50 380 L 150 380 L 140 200 Z" fill="#3b82f6" opacity="0.7"/>
+    <ellipse cx="100" cy="200" rx="40" ry="12" fill="#3b82f6" opacity="0.8"/>
+    <rect x="93" cy="190" width="14" height="15" rx="3" fill="#1e293b"/>
+    <ellipse cx="100" cy="365" rx="23" ry="7" fill="#475569"/>
+  </g>
+  
+  <!-- Volume/Decibel meter (center-right) -->
+  <g transform="translate(950, 300)">
+    <rect x="0" y="0" width="80" height="150" rx="8" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <!-- Meter bars (low) -->
+    <rect x="15" y="120" width="50" height="15" rx="2" fill="#22c55e"/>
+    <rect x="15" y="95" width="50" height="15" rx="2" fill="#22c55e"/>
+    <rect x="15" y="70" width="50" height="15" rx="2" fill="#eab308"/>
+    <rect x="15" y="45" width="50" height="15" rx="2" fill="#94a3b8" opacity="0.3"/>
+    <rect x="15" y="20" width="50" height="15" rx="2" fill="#94a3b8" opacity="0.3"/>
+    <!-- dB label -->
+    <text x="40" y="145" font-family="Arial" font-size="14" font-weight="bold" fill="#f1f5f9" text-anchor="middle">dB</text>
+  </g>
+  
+  <!-- Quiet blender with enclosure (right) -->
+  <g transform="translate(1200, 210)">
+    <!-- Base -->
+    <rect x="40" y="390" width="120" height="75" rx="7" fill="#1e293b"/>
+    <circle cx="100" cy="427" r="8" fill="#22c55e"/>
+    <!-- Enclosure -->
+    <rect x="35" y="160" width="130" height="240" rx="10" fill="#334155" opacity="0.4" stroke="#3b82f6" stroke-width="2"/>
+    <!-- Jar inside -->
+    <path d="M 65 230 L 58 385 L 142 385 L 135 230 Z" fill="#3b82f6" opacity="0.7"/>
+    <ellipse cx="100" cy="230" rx="37" ry="11" fill="#3b82f6" opacity="0.8"/>
+    <ellipse cx="100" cy="370" rx="22" ry="7" fill="#475569"/>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="800" y="780" font-family="Arial, sans-serif" font-size="82" font-weight="bold" fill="#1e40af" text-anchor="middle">Best Quiet Blenders</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bae6fd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg-gradient)"/>
+  
+  <!-- Blender illustration -->
+  <g transform="translate(200, 200)">
+    <!-- Base -->
+    <rect x="0" y="350" width="200" height="100" rx="10" fill="#334155"/>
+    <!-- Button -->
+    <circle cx="100" cy="400" r="15" fill="#3b82f6"/>
+    <!-- Jar -->
+    <path d="M 50 150 L 30 350 L 170 350 L 150 150 Z" fill="#0ea5e9" opacity="0.7"/>
+    <ellipse cx="100" cy="150" rx="50" ry="15" fill="#0ea5e9" opacity="0.8"/>
+    <!-- Lid -->
+    <ellipse cx="100" cy="150" rx="40" ry="10" fill="#1e293b"/>
+    <!-- Blade base -->
+    <ellipse cx="100" cy="330" rx="30" ry="8" fill="#475569"/>
+  </g>
+  
+  <g transform="translate(650, 200)">
+    <!-- Base -->
+    <rect x="0" y="350" width="200" height="100" rx="10" fill="#334155"/>
+    <!-- Button -->
+    <circle cx="100" cy="400" r="15" fill="#3b82f6"/>
+    <!-- Jar -->
+    <path d="M 50 150 L 30 350 L 170 350 L 150 150 Z" fill="#0ea5e9" opacity="0.7"/>
+    <ellipse cx="100" cy="150" rx="50" ry="15" fill="#0ea5e9" opacity="0.8"/>
+    <!-- Lid -->
+    <ellipse cx="100" cy="150" rx="40" ry="10" fill="#1e293b"/>
+    <!-- Blade base -->
+    <ellipse cx="100" cy="330" rx="30" ry="8" fill="#475569"/>
+  </g>
+  
+  <g transform="translate(1100, 200)">
+    <!-- Base -->
+    <rect x="0" y="350" width="200" height="100" rx="10" fill="#334155"/>
+    <!-- Button -->
+    <circle cx="100" cy="400" r="15" fill="#3b82f6"/>
+    <!-- Jar -->
+    <path d="M 50 150 L 30 350 L 170 350 L 150 150 Z" fill="#0ea5e9" opacity="0.7"/>
+    <ellipse cx="100" cy="150" rx="50" ry="15" fill="#0ea5e9" opacity="0.8"/>
+    <!-- Lid -->
+    <ellipse cx="100" cy="150" rx="40" ry="10" fill="#1e293b"/>
+    <!-- Blade base -->
+    <ellipse cx="100" cy="330" rx="30" ry="8" fill="#475569"/>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="800" y="780" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#0f172a" text-anchor="middle">Best Countertop Blenders</text>
+</svg>

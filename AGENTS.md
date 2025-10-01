@@ -41,6 +41,7 @@ Date: 01 October 2025
 - **Links**: Include internal links in article as natural as possible, aim for 3 to5 links per article, the public/links.txt has the list with articles.
 - **Widgets**: Include in article the widgets created under widget section, don't use to much to not make the article not readable.
 - **Image**: Create an svg image for the mdx article and store it in the assets/images. Make it simple and look nice without to much elements and a short text that is bigger and visible on any device with maximum 5 words. Use a nice background with a lighter colour that looks nice 16:9 format.
+- **Amazon Products**: You add the amazon products with the needed details for the box: `<AmazonProduct productName="Blender Name" productDescription="Description" productFeatures={["Feature 1", "Feature 2"]} productLink="https://amazon.com/dp/ASIN" productImage="https://example.com/image.jpg" productRating={4.5} importantConsiderations={["Note 1", "Note 2"]} pros={["Pro 1", "Pro 2"]} cons={["Con 1", "Con 2"]} />` the image is the one from amazon and the link should be with "https://amazon.com/dp/ASIN"
 
 
 ## Available Widgets (import from @components/widgets/)

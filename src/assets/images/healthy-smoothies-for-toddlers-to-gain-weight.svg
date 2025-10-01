@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef08a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg-gradient)"/>
+  
+  <!-- Baby/Toddler Icon (left) -->
+  <g transform="translate(200, 300)">
+    <!-- Head -->
+    <circle cx="80" cy="80" r="60" fill="#fbbf24" opacity="0.3"/>
+    <!-- Body -->
+    <ellipse cx="80" cy="170" rx="50" ry="70" fill="#fbbf24" opacity="0.3"/>
+    <!-- Arms -->
+    <ellipse cx="30" cy="150" rx="15" ry="40" fill="#fbbf24" opacity="0.3"/>
+    <ellipse cx="130" cy="150" rx="15" ry="40" fill="#fbbf24" opacity="0.3"/>
+    <!-- Face details -->
+    <circle cx="65" cy="75" r="8" fill="#78350f"/>
+    <circle cx="95" cy="75" r="8" fill="#78350f"/>
+    <path d="M 60 95 Q 80 105 100 95" stroke="#78350f" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Plus Sign -->
+  <g transform="translate(450, 380)">
+    <rect x="40" y="0" width="20" height="100" rx="5" fill="#f59e0b"/>
+    <rect x="0" y="40" width="100" height="20" rx="5" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Smoothie Cup (center-right) -->
+  <g transform="translate(700, 250)">
+    <!-- Cup -->
+    <path d="M 60 120 L 50 350 L 210 350 L 200 120 Z" fill="#f59e0b" opacity="0.6"/>
+    <!-- Smoothie liquid -->
+    <path d="M 65 180 L 58 340 L 202 340 L 195 180 Z" fill="#fb923c" opacity="0.8"/>
+    <!-- Rim -->
+    <ellipse cx="130" cy="120" rx="70" ry="15" fill="#f59e0b" opacity="0.7"/>
+    <!-- Straw -->
+    <rect x="150" y="80" width="12" height="150" rx="6" fill="#dc2626"/>
+    <ellipse cx="156" cy="80" rx="8" ry="4" fill="#dc2626"/>
+    <!-- Fruit pieces floating -->
+    <circle cx="110" cy="220" r="12" fill="#ef4444" opacity="0.8"/>
+    <circle cx="150" cy="260" r="10" fill="#f97316" opacity="0.8"/>
+    <circle cx="130" cy="300" r="11" fill="#fbbf24" opacity="0.8"/>
+  </g>
+  
+  <!-- Fruits (right side) -->
+  <g transform="translate(1050, 300)">
+    <!-- Banana -->
+    <path d="M 0 80 Q 20 60 40 80 Q 50 100 40 120 Q 20 140 0 120 Z" fill="#fbbf24"/>
+    <!-- Apple -->
+    <circle cx="100" cy="100" r="35" fill="#ef4444"/>
+    <rect x="98" y="70" width="4" height="15" fill="#78350f"/>
+    <ellipse cx="105" cy="75" rx="8" ry="4" fill="#22c55e"/>
+    <!-- Berries -->
+    <circle cx="180" cy="90" r="18" fill="#a855f7"/>
+    <circle cx="200" cy="110" r="18" fill="#a855f7"/>
+    <circle cx="220" cy="90" r="18" fill="#a855f7"/>
+  </g>
+  
+  <!-- Weight/Scale Icon (right) -->
+  <g transform="translate(1350, 380)">
+    <rect x="10" y="50" width="120" height="15" rx="5" fill="#334155"/>
+    <rect x="50" y="10" width="40" height="55" rx="3" fill="#475569"/>
+    <text x="70" y="42" font-family="Arial" font-size="24" font-weight="bold" fill="#fbbf24" text-anchor="middle">↑</text>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="800" y="730" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#78350f" text-anchor="middle">Toddler Weight Gain Smoothies</text>
+</svg>
