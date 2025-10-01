@@ -1,19 +1,19 @@
 // Site configuration
 export const siteConfig = {
   // Site details from config.json:site
-  title: "Bit Doze Astro Blog Theme", // from config.json:site.title
+  title: "Smoothie Blender Guide", // from config.json:site.title
   // description is used from existing site.ts, will be updated by config.json:metadata.meta_description
   // url is removed, Astro.site will be used
 
   // from config.json:site (logo related)
   logo: "/logo.svg",
-  logoWidth: "200",
-  logoHeight: "30",
-  logoText: "Bit Doze Astro Blog Theme",
+  logoWidth: "240",
+  logoHeight: "72",
+  logoText: "Smoothie Blender Guide",
 
   // SEO metadata from config.json:metadata
-  author: "Your Name", // from config.json:metadata.meta_author
-  description: "A modern, responsive blog theme for Astro with support for tags, categories, and series.", // from config.json:metadata.meta_description
+  author: "Smoothie Blender Guide", // from config.json:metadata.meta_author
+  description: "Your ultimate guide to smoothie blenders. Discover the best blenders, recipes, tips, and expert reviews to make perfect smoothies every time.", // from config.json:metadata.meta_description
   ogImage: "/images/og-image.png", // from config.json:metadata.meta_image (replaces defaultImage)
 
   // Pagination settings from config.json:settings
@@ -28,5 +28,5 @@ export const siteConfig = {
   },
   
   // Params from config.json:params
-  copyright: "Copyright © 2025", // from config.json:params.copyright
+  copyright: "Copyright © 2025 Smoothie Blender Guide", // from config.json:params.copyright
 };

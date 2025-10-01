@@ -15,6 +15,7 @@ Artificial Intelligence (AI) represents one of the most transformative technolog
 
 Artificial Intelligence refers to computer systems designed to perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
 
+<AmazonProduct productName="Blender Name" productDescription="Description" productFeatures={["Feature 1", "Feature 2"]} productLink="https://amazon.com/dp/ASIN" productImage="https://example.com/image.jpg" productRating={4.5} importantConsiderations={["Note 1", "Note 2"]} pros={["Pro 1", "Pro 2"]} cons={["Con 1", "Con 2"]} />
 
 
 <Notice type="info" title="Definition">
@@ -44,41 +45,41 @@ AI can be categorized in several ways, but one common classification is based on
 <Tabs>
   <Tab name="Narrow AI">
     Also known as Weak AI, Narrow AI is designed to perform a specific task with intelligence. Examples include voice assistants like Siri and Alexa, recommendation systems on streaming platforms, and image recognition software. Most current AI applications fall into this category.
-    
+
     ```python
     # Example of a narrow AI for image classification
     from tensorflow.keras.applications import ResNet50
     from tensorflow.keras.preprocessing import image
     from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
     import numpy as np
-    
+
     # Load pre-trained model
     model = ResNet50(weights='imagenet')
-    
+
     # Prepare image
     img_path = 'elephant.jpg'
     img = image.load_img(img_path, target_size=(224, 224))
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
     x = preprocess_input(x)
-    
+
     # Predict
     preds = model.predict(x)
     print('Predicted:', decode_predictions(preds, top=3)[0])
     ```
   </Tab>
-  
+
   <Tab name="General AI">
     General AI, or Strong AI, refers to a system with generalized human cognitive abilities. When presented with an unfamiliar task, a Strong AI system could find a solution without human intervention. This type of AI does not currently exist but remains a goal of many researchers.
-    
+
     <Notice type="warning" title="Theoretical Concept">
     General AI remains largely theoretical. Current AI systems, despite their impressive capabilities in specific domains, lack the broad cognitive abilities and adaptability of human intelligence.
     </Notice>
   </Tab>
-  
+
   <Tab name="Superintelligent AI">
     Superintelligent AI would surpass human intelligence across all fields, including creativity, general wisdom, and problem-solving. This concept is still speculative and raises significant ethical and existential questions.
-    
+
     <Notice type="error" title="Future Concern">
     The development of superintelligent AI raises concerns about control, alignment with human values, and potential existential risks. Many experts advocate for careful research and regulation in this area.
     </Notice>
@@ -170,20 +171,20 @@ As AI becomes more integrated into society, several ethical considerations emerg
 <Tabs>
   <Tab name="Bias and Fairness">
     AI systems can inherit and amplify biases present in their training data, leading to unfair outcomes for certain groups. Addressing bias requires diverse training data, careful algorithm design, and ongoing monitoring of AI systems.
-    
+
     <Notice type="warning">
     Biased AI systems can perpetuate and even amplify societal inequalities if not properly designed and monitored.
     </Notice>
   </Tab>
-  
+
   <Tab name="Privacy">
     AI often relies on vast amounts of data, raising concerns about privacy and data protection. Techniques like federated learning and differential privacy aim to balance the benefits of AI with privacy preservation.
-    
+
     ```python
     # Example of differential privacy in machine learning
     import tensorflow as tf
     import tensorflow_privacy
-    
+
     # Create a differentially private optimizer
     optimizer = tensorflow_privacy.DPKerasSGDOptimizer(
         l2_norm_clip=1.0,
@@ -193,11 +194,11 @@ As AI becomes more integrated into society, several ethical considerations emerg
     )
     ```
   </Tab>
-  
+
   <Tab name="Transparency">
     Many advanced AI systems, particularly deep learning models, operate as "black boxes," making it difficult to understand their decision-making processes. Explainable AI (XAI) aims to make AI systems more transparent and interpretable.
   </Tab>
-  
+
   <Tab name="Accountability">
     As AI systems make more decisions, questions arise about who is responsible when things go wrong. Establishing clear accountability frameworks is essential for responsible AI deployment.
   </Tab>
@@ -221,18 +222,18 @@ If you're interested in developing AI applications, here are some resources to g
 
 <Accordion label="TensorFlow" group="ai-frameworks">
   Developed by Google, TensorFlow is an open-source library for numerical computation and machine learning. It's widely used for developing and training deep learning models.
-  
+
   ```python
   # Simple TensorFlow example
   import tensorflow as tf
-  
+
   # Create a simple model
   model = tf.keras.Sequential([
     tf.keras.layers.Dense(128, activation='relu', input_shape=(784,)),
     tf.keras.layers.Dropout(0.2),
     tf.keras.layers.Dense(10, activation='softmax')
   ])
-  
+
   # Compile the model
   model.compile(optimizer='adam',
                 loss='sparse_categorical_crossentropy',
@@ -242,12 +243,12 @@ If you're interested in developing AI applications, here are some resources to g
 
 <Accordion label="PyTorch" group="ai-frameworks">
   Developed by Facebook's AI Research lab, PyTorch is known for its flexibility and dynamic computation graph, making it popular among researchers.
-  
+
   ```python
   # Simple PyTorch example
   import torch
   import torch.nn as nn
-  
+
   # Define a simple neural network
   class SimpleNN(nn.Module):
       def __init__(self):
@@ -257,7 +258,7 @@ If you're interested in developing AI applications, here are some resources to g
           self.dropout = nn.Dropout(0.2)
           self.fc2 = nn.Linear(128, 10)
           self.softmax = nn.Softmax(dim=1)
-          
+
       def forward(self, x):
           x = self.fc1(x)
           x = self.relu(x)
@@ -270,21 +271,21 @@ If you're interested in developing AI applications, here are some resources to g
 
 <Accordion label="scikit-learn" group="ai-frameworks">
   A simple and efficient tool for data analysis and machine learning, particularly well-suited for getting started with classical machine learning algorithms.
-  
+
   ```python
   # scikit-learn example for classification
   from sklearn.ensemble import RandomForestClassifier
   from sklearn.datasets import make_classification
   from sklearn.model_selection import train_test_split
-  
+
   # Create sample data
   X, y = make_classification(n_samples=1000, n_features=20, random_state=42)
   X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-  
+
   # Train a random forest classifier
   clf = RandomForestClassifier(n_estimators=100)
   clf.fit(X_train, y_train)
-  
+
   # Evaluate the model
   accuracy = clf.score(X_test, y_test)
   print(f"Model accuracy: {accuracy:.2f}")
