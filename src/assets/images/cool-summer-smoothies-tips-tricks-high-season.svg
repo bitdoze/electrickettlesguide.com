@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E5FC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg6)"/>
+  
+  <!-- Sun -->
+  <circle cx="1300" cy="200" r="90" fill="#FFD54F"/>
+  <circle cx="1300" cy="200" r="80" fill="#FFEB3B"/>
+  
+  <!-- Sun rays -->
+  <line x1="1300" y1="90" x2="1300" y2="60" stroke="#FFD54F" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1400" y1="200" x2="1430" y2="200" stroke="#FFD54F" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1360" y1="140" x2="1380" y2="120" stroke="#FFD54F" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1360" y1="260" x2="1380" y2="280" stroke="#FFD54F" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Beach umbrella -->
+  <path d="M 300 500 Q 400 450 500 500" fill="#FF5252" opacity="0.8"/>
+  <path d="M 300 500 Q 400 470 500 500" fill="#FF1744" opacity="0.8"/>
+  <line x1="400" y1="500" x2="400" y2="650" stroke="#8D6E63" stroke-width="8"/>
+  
+  <!-- Smoothie glass on beach -->
+  <ellipse cx="800" cy="650" rx="100" ry="30" fill="#D7CCC8" opacity="0.3"/>
+  <path d="M 750 450 L 700 650 L 900 650 L 850 450 Z" fill="#FF80AB" opacity="0.6"/>
+  <ellipse cx="800" cy="450" rx="50" ry="15" fill="#F06292"/>
+  
+  <!-- Berries floating in smoothie -->
+  <circle cx="780" cy="550" r="10" fill="#C62828"/>
+  <circle cx="820" cy="570" r="10" fill="#C62828"/>
+  <circle cx="795" cy="600" r="10" fill="#C62828"/>
+  
+  <!-- Straw -->
+  <rect x="785" y="350" width="12" height="120" fill="#00E676" transform="rotate(-8 791 410)"/>
+  
+  <!-- Beach ball -->
+  <circle cx="550" cy="600" r="60" fill="#FFF"/>
+  <path d="M 550 540 Q 580 570 550 600" fill="#FF5252"/>
+  <path d="M 550 600 Q 520 570 550 540" fill="#2196F3"/>
+  <path d="M 610 600 Q 580 570 550 600" fill="#FFEB3B"/>
+  
+  <!-- Waves -->
+  <path d="M 0 700 Q 200 680 400 700 Q 600 720 800 700 Q 1000 680 1200 700 Q 1400 720 1600 700 L 1600 900 L 0 900 Z" fill="#81D4FA" opacity="0.5"/>
+  
+  <!-- Main Text -->
+  <text x="800" y="280" font-family="Arial, sans-serif" font-size="82" font-weight="bold" text-anchor="middle" fill="#01579B">
+    Summer Smoothies
+  </text>
+  <text x="800" y="370" font-family="Arial, sans-serif" font-size="56" text-anchor="middle" fill="#0277BD">
+    Cool and Refreshing
+  </text>
+</svg>

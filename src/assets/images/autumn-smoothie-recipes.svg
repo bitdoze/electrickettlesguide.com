@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg5)"/>
+  
+  <!-- Pumpkin -->
+  <ellipse cx="500" cy="550" rx="120" ry="110" fill="#FF6F00"/>
+  <ellipse cx="500" cy="540" rx="115" ry="105" fill="#FF8F00"/>
+  <line x1="500" y1="440" x2="500" y2="540" stroke="#8D6E63" stroke-width="3"/>
+  <rect x="485" y="420" width="30" height="30" fill="#558B2F" rx="5"/>
+  
+  <!-- Autumn leaves -->
+  <path d="M 700 450 Q 720 470 710 490 Q 700 470 680 475 Q 690 460 700 450 Z" fill="#D84315" transform="rotate(-20 700 470)"/>
+  <path d="M 750 500 Q 770 520 760 540 Q 750 520 730 525 Q 740 510 750 500 Z" fill="#FF6F00" transform="rotate(15 750 520)"/>
+  <path d="M 1050 480 Q 1070 500 1060 520 Q 1050 500 1030 505 Q 1040 490 1050 480 Z" fill="#D84315" transform="rotate(-30 1050 500)"/>
+  <path d="M 1100 530 Q 1120 550 1110 570 Q 1100 550 1080 555 Q 1090 540 1100 530 Z" fill="#F57C00" transform="rotate(25 1100 550)"/>
+  
+  <!-- Smoothie glass -->
+  <rect x="850" y="480" width="140" height="220" fill="#8D6E63" opacity="0.3" rx="8"/>
+  <rect x="855" y="485" width="130" height="210" fill="#FFF" opacity="0.4" rx="5"/>
+  
+  <!-- Smoothie inside -->
+  <rect x="865" y="550" width="110" height="140" fill="#BF360C" opacity="0.7"/>
+  
+  <!-- Cranberries on top -->
+  <circle cx="900" cy="540" r="8" fill="#C62828"/>
+  <circle cx="920" cy="535" r="8" fill="#C62828"/>
+  <circle cx="940" cy="540" r="8" fill="#C62828"/>
+  
+  <!-- Straw -->
+  <rect x="910" y="420" width="10" height="130" fill="#FF6F00" transform="rotate(-5 915 485)"/>
+  
+  <!-- Kale leaves decoration -->
+  <ellipse cx="650" cy="600" rx="40" ry="50" fill="#558B2F" transform="rotate(-25 650 600)" opacity="0.8"/>
+  <ellipse cx="680" cy="620" rx="35" ry="45" fill="#689F38" transform="rotate(10 680 620)" opacity="0.8"/>
+  
+  <!-- Main Text -->
+  <text x="800" y="260" font-family="Arial, sans-serif" font-size="82" font-weight="bold" text-anchor="middle" fill="#BF360C">
+    Autumn Smoothies
+  </text>
+  <text x="800" y="350" font-family="Arial, sans-serif" font-size="56" text-anchor="middle" fill="#D84315">
+    Seasonal Wellness Recipes
+  </text>
+</svg>

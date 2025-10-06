@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg7)"/>
+  
+  <!-- Blender base -->
+  <rect x="600" y="650" width="220" height="100" fill="#424242" rx="10"/>
+  <circle cx="710" cy="700" r="25" fill="#616161"/>
+  
+  <!-- Blender jar (dirty) -->
+  <path d="M 650 400 L 620 650 L 800 650 L 770 400 Z" fill="#9E9E9E" opacity="0.4"/>
+  <path d="M 655 410 L 625 650 L 795 650 L 765 410 Z" fill="#FFF" opacity="0.3"/>
+  
+  <!-- Dirty residue inside -->
+  <ellipse cx="710" cy="550" rx="60" ry="20" fill="#8BC34A" opacity="0.3"/>
+  <ellipse cx="710" cy="600" rx="70" ry="25" fill="#FF9800" opacity="0.3"/>
+  
+  <!-- Clean blender (after) -->
+  <path d="M 900 400 L 870 650 L 1050 650 L 1020 400 Z" fill="#90CAF9" opacity="0.3"/>
+  <path d="M 905 410 L 875 650 L 1045 650 L 1015 410 Z" fill="#E3F2FD" opacity="0.7"/>
+  
+  <!-- Blender base (clean) -->
+  <rect x="850" y="650" width="220" height="100" fill="#424242" rx="10"/>
+  <circle cx="960" cy="700" r="25" fill="#81C784"/>
+  
+  <!-- Sparkle effects (clean) -->
+  <polygon points="920,450 925,465 940,470 925,475 920,490 915,475 900,470 915,465" fill="#FFC107"/>
+  <polygon points="1000,500 1004,512 1016,516 1004,520 1000,532 996,520 984,516 996,512" fill="#FFC107"/>
+  <polygon points="950,580 954,590 964,594 954,598 950,608 946,598 936,594 946,590" fill="#FFC107"/>
+  
+  <!-- Sponge -->
+  <rect x="500" y="520" width="80" height="50" fill="#FFEB3B" rx="8"/>
+  <line x1="510" y1="535" x2="570" y2="535" stroke="#FDD835" stroke-width="3"/>
+  <line x1="510" y1="550" x2="570" y2="550" stroke="#FDD835" stroke-width="3"/>
+  
+  <!-- Soap bubbles -->
+  <circle cx="480" cy="480" r="20" fill="#E3F2FD" opacity="0.7" stroke="#81D4FA" stroke-width="2"/>
+  <circle cx="510" cy="460" r="15" fill="#E3F2FD" opacity="0.7" stroke="#81D4FA" stroke-width="2"/>
+  <circle cx="450" cy="510" r="18" fill="#E3F2FD" opacity="0.7" stroke="#81D4FA" stroke-width="2"/>
+  
+  <!-- Arrow showing before/after -->
+  <line x1="820" y1="500" x2="860" y2="500" stroke="#4CAF50" stroke-width="6"/>
+  <polygon points="860,500 845,490 845,510" fill="#4CAF50"/>
+  
+  <!-- Main Text -->
+  <text x="800" y="260" font-family="Arial, sans-serif" font-size="82" font-weight="bold" text-anchor="middle" fill="#424242">
+    Clean Your Blender
+  </text>
+  <text x="800" y="350" font-family="Arial, sans-serif" font-size="56" text-anchor="middle" fill="#616161">
+    Quick and Easy Tips
+  </text>
+</svg>

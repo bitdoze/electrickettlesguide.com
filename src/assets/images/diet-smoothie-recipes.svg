@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg8)"/>
+  
+  <!-- Scale/weight icon -->
+  <rect x="400" y="550" width="180" height="20" fill="#616161" rx="10"/>
+  <rect x="470" y="570" width="40" height="80" fill="#757575"/>
+  <circle cx="490" cy="660" r="30" fill="#424242"/>
+  
+  <!-- Weight plate left -->
+  <ellipse cx="440" cy="540" rx="50" ry="15" fill="#4CAF50" opacity="0.8"/>
+  <rect x="390" y="480" width="100" height="60" fill="#66BB6A" rx="5"/>
+  <text x="440" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFF">75</text>
+  
+  <!-- Weight plate right -->
+  <ellipse cx="540" cy="540" rx="50" ry="15" fill="#4CAF50" opacity="0.8"/>
+  <rect x="490" y="480" width="100" height="60" fill="#66BB6A" rx="5"/>
+  <text x="540" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFF">65</text>
+  
+  <!-- Arrow showing weight loss -->
+  <line x1="620" y1="520" x2="720" y2="520" stroke="#4CAF50" stroke-width="8"/>
+  <polygon points="720,520 700,510 700,530" fill="#4CAF50"/>
+  
+  <!-- Smoothie glass -->
+  <ellipse cx="950" cy="650" rx="90" ry="25" fill="#D7CCC8" opacity="0.3"/>
+  <path d="M 900 450 L 860 650 L 1040 650 L 1000 450 Z" fill="#66BB6A" opacity="0.7"/>
+  <ellipse cx="950" cy="450" rx="50" ry="15" fill="#81C784"/>
+  
+  <!-- Leafy greens in smoothie -->
+  <ellipse cx="930" cy="550" rx="30" ry="40" fill="#388E3C" opacity="0.6" transform="rotate(-20 930 550)"/>
+  <ellipse cx="970" cy="570" rx="28" ry="38" fill="#388E3C" opacity="0.6" transform="rotate(15 970 570)"/>
+  
+  <!-- Straw -->
+  <rect x="935" y="350" width="12" height="120" fill="#FFC107" transform="rotate(-10 941 410)"/>
+  
+  <!-- Check mark for healthy -->
+  <circle cx="1150" cy="530" r="60" fill="#4CAF50" opacity="0.3"/>
+  <path d="M 1120 530 L 1140 555 L 1180 510" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Main Text -->
+  <text x="800" y="260" font-family="Arial, sans-serif" font-size="82" font-weight="bold" text-anchor="middle" fill="#2E7D32">
+    Diet Smoothies
+  </text>
+  <text x="800" y="350" font-family="Arial, sans-serif" font-size="56" text-anchor="middle" fill="#388E3C">
+    Weight Loss Recipes
+  </text>
+</svg>
