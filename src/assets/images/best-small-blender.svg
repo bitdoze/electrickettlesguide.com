@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
   <defs>
-    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="small-blender-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#fde68a;stop-opacity:1" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="1600" height="900" fill="url(#bg-gradient)"/>
+  <rect width="1600" height="900" fill="url(#small-blender-gradient)"/>
   
   <!-- Small Blender 1 (left) -->
   <g transform="translate(250, 280)">
@@ -23,9 +23,9 @@
   <g transform="translate(480, 260)">
     <rect x="30" y="320" width="90" height="55" rx="6" fill="#334155"/>
     <circle cx="75" cy="347" r="7" fill="#f59e0b"/>
-    <path d="M 42 170 L="36 320 L 114 320 L 108 170 Z" fill="#fbbf24" opacity="0.7"/>
+    <path d="M 42 170 L 36 320 L 114 320 L 108 170 Z" fill="#fbbf24" opacity="0.7"/>
     <ellipse cx="75" cy="170" rx="33" ry="11" fill="#f59e0b" opacity="0.8"/>
-    <rect x="67" cy="165" width="16" height="11" rx="2" fill="#1e293b"/>
+    <rect x="67" y="165" width="16" height="11" rx="2" fill="#1e293b"/>
     <ellipse cx="75" cy="305" rx="20" ry="6" fill="#475569"/>
   </g>
   
@@ -35,7 +35,7 @@
     <circle cx="75" cy="370" r="8" fill="#f59e0b"/>
     <path d="M 40 150 L 33 340 L 117 340 L 110 150 Z" fill="#fbbf24" opacity="0.7"/>
     <ellipse cx="75" cy="150" rx="37" ry="12" fill="#f59e0b" opacity="0.8"/>
-    <rect x="65" cy="145" width="20" height="12" rx="2" fill="#1e293b"/>
+    <rect x="65" y="145" width="20" height="12" rx="2" fill="#1e293b"/>
     <ellipse cx="75" cy="325" rx="23" ry="7" fill="#475569"/>
   </g>
   
@@ -45,7 +45,7 @@
     <circle cx="75" cy="336" r="6" fill="#f59e0b"/>
     <path d="M 43 175 L 37 310 L 113 310 L 107 175 Z" fill="#fbbf24" opacity="0.7"/>
     <ellipse cx="75" cy="175" rx="32" ry="11" fill="#f59e0b" opacity="0.8"/>
-    <rect x="68" cy="170" width="14" height="10" rx="2" fill="#1e293b"/>
+    <rect x="68" y="170" width="14" height="10" rx="2" fill="#1e293b"/>
     <ellipse cx="75" cy="295" rx="19" ry="5" fill="#475569"/>
   </g>
   
@@ -55,7 +55,7 @@
     <circle cx="75" cy="314" r="6" fill="#f59e0b"/>
     <path d="M 47 185 L 42 290 L 108 290 L 103 185 Z" fill="#fbbf24" opacity="0.7"/>
     <ellipse cx="75" cy="185" rx="28" ry="9" fill="#f59e0b" opacity="0.8"/>
-    <rect x="69" cy="181" width="12" height="9" rx="2" fill="#1e293b"/>
+    <rect x="69" y="181" width="12" height="9" rx="2" fill="#1e293b"/>
     <ellipse cx="75" cy="278" rx="17" ry="5" fill="#475569"/>
   </g>
   

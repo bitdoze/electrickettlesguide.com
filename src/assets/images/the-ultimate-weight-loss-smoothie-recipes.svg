@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="weightloss-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#weightloss-gradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="200" cy="180" r="85" fill="#66BB6A" opacity="0.2"/>
+  <circle cx="1380" cy="720" r="105" fill="#81C784" opacity="0.2"/>
+  <circle cx="1420" cy="160" r="75" fill="#4CAF50" opacity="0.15"/>
+  <circle cx="280" cy="720" r="90" fill="#AED581" opacity="0.18"/>
+  
+  <!-- Smoothie glass with measurement marks -->
+  <g transform="translate(180, 280)">
+    <path d="M 60 0 L 80 150 L 40 150 Z" fill="#66BB6A" opacity="0.7"/>
+    <ellipse cx="60" cy="150" rx="20" ry="8" fill="#4CAF50"/>
+    <rect x="55" y="140" width="10" height="50" fill="#8D6E63"/>
+    <!-- Measurement marks -->
+    <line x1="85" y1="50" x2="95" y2="50" stroke="#2E7D32" stroke-width="2"/>
+    <line x1="85" y1="100" x2="95" y2="100" stroke="#2E7D32" stroke-width="2"/>
+    <!-- Fruit slices -->
+    <circle cx="55" cy="70" r="8" fill="#FF6B6B" opacity="0.6"/>
+    <circle cx="65" cy="90" r="7" fill="#AED581" opacity="0.6"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="800" y="360" font-family="Arial, sans-serif" font-size="105" font-weight="bold" fill="#2E7D32" text-anchor="middle">
+    Weight Loss Smoothies
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="800" y="490" font-family="Arial, sans-serif" font-size="60" fill="#43A047" text-anchor="middle">
+    Ultimate Recipes
+  </text>
+  
+  <!-- Scale/weight icon -->
+  <g transform="translate(1150, 360)">
+    <rect x="-40" y="20" width="80" height="10" rx="5" fill="#4CAF50"/>
+    <rect x="-30" y="10" width="60" height="25" rx="8" fill="#66BB6A" opacity="0.7"/>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFF" text-anchor="middle">FIT</text>
+  </g>
+  
+  <!-- Leafy green accent -->
+  <g transform="translate(250, 500)">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#66BB6A" opacity="0.5"/>
+    <ellipse cx="0" cy="0" rx="10" ry="20" fill="#81C784" opacity="0.5"/>
+  </g>
+</svg>
