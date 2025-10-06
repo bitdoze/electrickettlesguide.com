@@ -1,0 +1,55 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  title?: string;
+  description?: string;
+  primaryButtonText?: string;
+  primaryButtonUrl?: string;
+  secondaryButtonText?: string;
+  secondaryButtonUrl?: string;
+}
+
+const {
+  title = "Ready to Find Your Perfect Blender?",
+  description = "Explore our comprehensive buying guides and expert reviews to make the right choice for your kitchen and lifestyle.",
+  primaryButtonText = "View Top Picks",
+  primaryButtonUrl = "/categories/blenders/",
+  secondaryButtonText = "Read Buying Guide",
+  secondaryButtonUrl = "/blog/"
+} = Astro.props;
+---
+
+<section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+  <div class="relative bg-gradient-to-br from-green-500 via-emerald-500 to-teal-600 rounded-3xl shadow-2xl overflow-hidden">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxIDEuNzktNCA0LTRzNCAxLjc5IDQgNC0xLjc5IDQtNCA0LTQtMS43OS00LTR6bTAtMTRjMC0yLjIxIDEuNzktNCA0LTRzNCAxLjc5IDQgNC0xLjc5IDQtNCA0LTQtMS43OS00LTR6bS0xNCAwYzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00em0wIDE0YzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00eiIvPjwvZz48L2c+PC9zdmc+')] opacity-30"></div>
+    
+    <div class="relative px-8 py-12 md:py-16 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+        {title}
+      </h2>
+      
+      <p class="text-lg md:text-xl text-green-50 mb-8 max-w-2xl mx-auto">
+        {description}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href={primaryButtonUrl}
+          class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-green-600 bg-white rounded-lg hover:bg-green-50 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200"
+        >
+          {primaryButtonText}
+          <Icon name="mdi:star" class="w-5 h-5 ml-2" />
+        </a>
+        
+        <a
+          href={secondaryButtonUrl}
+          class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white border-2 border-white rounded-lg hover:bg-white hover:text-green-600 transition-colors transform hover:-translate-y-0.5 duration-200"
+        >
+          {secondaryButtonText}
+          <Icon name="mdi:arrow-right" class="w-5 h-5 ml-2" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
