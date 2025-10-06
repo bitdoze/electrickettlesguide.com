@@ -1,6 +1,6 @@
 ---
 title: Ioana
-image: "/images/authors/dragos.webp"
+image: "/images/authors/ioana.jpeg"
 description: Expert smoothie blender reviewer and nutrition enthusiast
 social:
   facebook: https://www.facebook.com/dragos.balota

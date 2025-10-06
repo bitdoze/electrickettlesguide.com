@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg14)"/>
+  
+  <!-- Scale -->
+  <rect x="650" y="600" width="300" height="20" fill="#616161" rx="10"/>
+  <rect x="780" y="620" width="40" height="80" fill="#757575"/>
+  
+  <!-- Smoothie on scale -->
+  <path d="M 750 450 L 720 600 L 880 600 L 850 450 Z" fill="#66BB6A" opacity="0.7"/>
+  <ellipse cx="800" cy="450" rx="50" ry="15" fill="#81C784"/>
+  
+  <!-- Down arrow (weight loss) -->
+  <line x1="450" y1="500" x2="450" y2="620" stroke="#4CAF50" stroke-width="12"/>
+  <polygon points="450,620 420,580 480,580" fill="#4CAF50"/>
+  
+  <text x="800" y="280" font-family="Arial, sans-serif" font-size="76" font-weight="bold" text-anchor="middle" fill="#2E7D32">Weight Loss</text>
+  <text x="800" y="360" font-family="Arial, sans-serif" font-size="52" text-anchor="middle" fill="#388E3C">Smoothies</text>
+</svg>

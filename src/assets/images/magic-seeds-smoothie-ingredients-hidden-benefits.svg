@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg13" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg13)"/>
+  
+  <!-- Magic sparkles -->
+  <polygon points="600,300 610,330 640,340 610,350 600,380 590,350 560,340 590,330" fill="#FFC107"/>
+  <polygon points="1000,320 1008,345 1033,353 1008,361 1000,386 992,361 967,353 992,345" fill="#FFC107"/>
+  
+  <!-- Seeds scattered -->
+  <ellipse cx="700" cy="550" rx="8" ry="12" fill="#8D6E63"/>
+  <ellipse cx="720" cy="560" rx="8" ry="12" fill="#8D6E63"/>
+  <ellipse cx="680" cy="570" rx="8" ry="12" fill="#8D6E63"/>
+  <circle cx="850" cy="540" r="10" fill="#6D4C41"/>
+  <circle cx="870" cy="555" r="10" fill="#6D4C41"/>
+  <ellipse cx="920" cy="565" rx="12" ry="8" fill="#A1887F"/>
+  
+  <text x="800" y="260" font-family="Arial, sans-serif" font-size="76" font-weight="bold" text-anchor="middle" fill="#6A1B9A">Magic Seeds</text>
+  <text x="800" y="350" font-family="Arial, sans-serif" font-size="52" text-anchor="middle" fill="#8E24AA">Hidden Benefits</text>
+</svg>

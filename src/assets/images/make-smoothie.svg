@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg15)"/>
+  
+  <!-- Blender with ingredients -->
+  <rect x="650" y="650" width="220" height="80" fill="#424242" rx="10"/>
+  <path d="M 700 420 L 660 650 L 860 650 L 820 420 Z" fill="#90CAF9" opacity="0.4"/>
+  <path d="M 705 430 L 665 650 L 855 650 L 815 430 Z" fill="#FFF" opacity="0.5"/>
+  
+  <!-- Fruit floating above -->
+  <circle cx="950" cy="400" r="40" fill="#FF9800"/>
+  <ellipse cx="650" cy="420" rx="30" ry="38" fill="#E53935"/>
+  <polygon points="650,390 645,400 655,400" fill="#4CAF50"/>
+  
+  <!-- Instructions arrows -->
+  <line x1="1050" y1="550" x2="900" y2="600" stroke="#1976D2" stroke-width="6"/>
+  <polygon points="900,600 920,595 915,580" fill="#1976D2"/>
+  
+  <text x="800" y="270" font-family="Arial, sans-serif" font-size="82" font-weight="bold" text-anchor="middle" fill="#0D47A1">How To Make</text>
+  <text x="800" y="360" font-family="Arial, sans-serif" font-size="58" text-anchor="middle" fill="#1565C0">A Smoothie</text>
+</svg>
