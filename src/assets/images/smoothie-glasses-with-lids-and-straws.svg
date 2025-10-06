@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fde68a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-grad)"/>
+  
+  <!-- Glass 1 -->
+  <g transform="translate(700, 540)">
+    <path d="M -60 -180 L -50 180 L 50 180 L 60 -180 Z" fill="#a7f3d0" opacity="0.7" stroke="#059669" stroke-width="3"/>
+    <ellipse cx="0" cy="-180" rx="65" ry="20" fill="#10b981" opacity="0.8"/>
+    <!-- Straw -->
+    <rect x="30" y="-200" width="8" height="300" fill="#dc2626" opacity="0.9" rx="4"/>
+    <rect x="26" y="-210" width="16" height="20" fill="#dc2626" opacity="0.9" rx="4"/>
+  </g>
+  
+  <!-- Glass 2 - Center -->
+  <g transform="translate(960, 520)">
+    <path d="M -70 -200 L -55 200 L 55 200 L 70 -200 Z" fill="#fde047" opacity="0.75" stroke="#eab308" stroke-width="3"/>
+    <ellipse cx="0" cy="-200" rx="75" ry="22" fill="#facc15" opacity="0.85"/>
+    <!-- Straw -->
+    <rect x="35" y="-220" width="10" height="340" fill="#2563eb" opacity="0.9" rx="5"/>
+    <rect x="30" y="-235" width="20" height="25" fill="#2563eb" opacity="0.9" rx="5"/>
+    <!-- Lid -->
+    <ellipse cx="0" cy="-200" rx="75" ry="15" fill="#78716c" opacity="0.9"/>
+  </g>
+  
+  <!-- Glass 3 -->
+  <g transform="translate(1220, 540)">
+    <path d="M -60 -180 L -50 180 L 50 180 L 60 -180 Z" fill="#fca5a5" opacity="0.7" stroke="#dc2626" stroke-width="3"/>
+    <ellipse cx="0" cy="-180" rx="65" ry="20" fill="#ef4444" opacity="0.8"/>
+    <!-- Straw -->
+    <rect x="-38" y="-200" width="8" height="300" fill="#16a34a" opacity="0.9" rx="4"/>
+    <rect x="-42" y="-210" width="16" height="20" fill="#16a34a" opacity="0.9" rx="4"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="580" cy="350" r="6" fill="#fb923c" opacity="0.6"/>
+  <circle cx="620" cy="390" r="4" fill="#fb923c" opacity="0.7"/>
+  <circle cx="1340" cy="370" r="6" fill="#fb923c" opacity="0.6"/>
+  <circle cx="1380" cy="410" r="4" fill="#fb923c" opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="960" y="920" font-family="Arial, sans-serif" font-size="95" font-weight="bold" fill="#78350f" text-anchor="middle">
+    Smoothie Glasses
+  </text>
+</svg>

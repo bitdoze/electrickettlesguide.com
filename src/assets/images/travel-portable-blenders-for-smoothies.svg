@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-travel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d1fae5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a7f3d0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-travel)"/>
+  
+  <!-- Portable Blender -->
+  <g transform="translate(960, 540)">
+    <!-- Cup/Container -->
+    <path d="M -80 -200 L -70 100 L 70 100 L 80 -200 Z" fill="#34d399" opacity="0.8" stroke="#10b981" stroke-width="4"/>
+    <ellipse cx="0" cy="-200" rx="85" ry="25" fill="#059669" opacity="0.9"/>
+    
+    <!-- Battery/Charge indicator -->
+    <rect x="-60" y="-50" width="120" height="40" fill="#ffffff" opacity="0.3" rx="5"/>
+    <rect x="-50" y="-40" width="40" height="20" fill="#10b981" opacity="0.9" rx="2"/>
+    
+    <!-- USB Cable -->
+    <path d="M 90 0 L 180 -50" stroke="#6b7280" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <rect x="175" y="-65" width="30" height="30" fill="#6b7280" rx="3"/>
+    
+    <!-- Motor Base -->
+    <rect x="-80" y="100" width="160" height="60" fill="#10b981" opacity="0.95" rx="8"/>
+    <circle cx="-40" cy="130" r="8" fill="#d1fae5" opacity="0.8"/>
+    <circle cx="40" cy="130" r="8" fill="#d1fae5" opacity="0.8"/>
+    
+    <!-- Blades indication -->
+    <line x1="-40" y1="80" x2="40" y2="80" stroke="#059669" stroke-width="4"/>
+    <line x1="0" y1="60" x2="0" y2="100" stroke="#059669" stroke-width="4"/>
+  </g>
+  
+  <!-- Travel Icons -->
+  <!-- Suitcase -->
+  <g transform="translate(600, 700)">
+    <rect x="-50" y="-40" width="100" height="80" fill="#10b981" opacity="0.7" rx="5"/>
+    <rect x="-30" y="-50" width="60" height="15" fill="#10b981" opacity="0.7" rx="3"/>
+  </g>
+  
+  <!-- Airplane -->
+  <g transform="translate(1320, 350)">
+    <path d="M -20 0 L 60 0 L 70 -10 L 70 10 L 60 0 M 0 -20 L 0 20 L 30 15 L 30 -15 Z" 
+          fill="#059669" opacity="0.7"/>
+  </g>
+  
+  <!-- Location Pin -->
+  <g transform="translate(650, 400)">
+    <path d="M 0 -30 C -15 -30 -25 -20 -25 -5 C -25 15 0 30 0 30 C 0 30 25 15 25 -5 C 25 -20 15 -30 0 -30 Z" 
+          fill="#10b981" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="8" fill="#d1fae5"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="960" y="950" font-family="Arial, sans-serif" font-size="95" font-weight="bold" 
+        fill="#065f46" text-anchor="middle">
+    Travel Portable Blenders
+  </text>
+</svg>

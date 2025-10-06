@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d1fae5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6ee7b7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-green)"/>
+  
+  <!-- Blender -->
+  <g transform="translate(960, 540)">
+    <!-- Jar -->
+    <path d="M -120 -250 L -90 120 L 90 120 L 120 -250 Z" fill="#6ee7b7" opacity="0.4" stroke="#10b981" stroke-width="5"/>
+    
+    <!-- Green Smoothie Inside -->
+    <path d="M -110 -150 L -85 80 L 85 80 L 110 -150 Z" fill="#34d399" opacity="0.7"/>
+    
+    <!-- Leafy Greens -->
+    <ellipse cx="-40" cy="-80" rx="35" ry="45" fill="#10b981" opacity="0.8"/>
+    <ellipse cx="30" cy="-100" rx="40" ry="50" fill="#059669" opacity="0.8"/>
+    <ellipse cx="10" cy="-40" rx="30" ry="40" fill="#047857" opacity="0.8"/>
+    
+    <!-- Lid -->
+    <ellipse cx="0" cy="-250" rx="125" ry="35" fill="#059669" opacity="0.9"/>
+    
+    <!-- Base -->
+    <rect x="-130" y="120" width="260" height="100" fill="#047857" opacity="0.9" rx="15"/>
+    <circle cx="-50" cy="170" r="18" fill="#d1fae5" opacity="0.7"/>
+    <circle cx="50" cy="170" r="18" fill="#d1fae5" opacity="0.7"/>
+  </g>
+  
+  <!-- Spinach Leaves -->
+  <g transform="translate(550, 600)">
+    <ellipse cx="0" cy="0" rx="40" ry="50" fill="#10b981" opacity="0.6"/>
+    <path d="M 0 -50 Q 10 -20 0 10" stroke="#047857" stroke-width="3" fill="none"/>
+  </g>
+  
+  <g transform="translate(1370, 550)">
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#059669" opacity="0.6"/>
+    <path d="M 0 -55 Q -10 -25 0 15" stroke="#047857" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Kale Leaf -->
+  <g transform="translate(650, 450)">
+    <ellipse cx="0" cy="0" rx="35" ry="60" fill="#047857" opacity="0.6"/>
+    <path d="M 0 -60 Q 15 -30 0 20" stroke="#064e3b" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="960" y="980" font-family="Arial, sans-serif" font-size="95" font-weight="bold" 
+        fill="#047857" text-anchor="middle">
+    Green Smoothie Blenders
+  </text>
+</svg>

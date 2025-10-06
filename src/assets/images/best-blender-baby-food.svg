@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-baby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce7f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbcfe8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-baby)"/>
+  
+  <!-- Baby Bottle -->
+  <g transform="translate(650, 500)">
+    <rect x="-30" y="-150" width="60" height="200" fill="#fda4af" opacity="0.8" rx="5"/>
+    <ellipse cx="0" cy="-150" rx="35" ry="10" fill="#fb7185" opacity="0.9"/>
+    <rect x="-25" y="-175" width="50" height="30" fill="#fb7185" opacity="0.9" rx="8"/>
+    <circle cx="-10" y="0" r="5" fill="#ffffff" opacity="0.4"/>
+    <circle cx="15" y="-50" r="5" fill="#ffffff" opacity="0.4"/>
+  </g>
+  
+  <!-- Blender/Food Maker -->
+  <g transform="translate(960, 500)">
+    <!-- Container -->
+    <path d="M -90 -180 L -70 80 L 70 80 L 90 -180 Z" fill="#f9a8d4" opacity="0.75" stroke="#ec4899" stroke-width="4"/>
+    <ellipse cx="0" cy="-180" rx="95" ry="28" fill="#ec4899" opacity="0.85"/>
+    
+    <!-- Steam -->
+    <path d="M -50 -200 Q -40 -220 -50 -240" stroke="#9ca3af" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M 0 -200 Q 10 -230 0 -250" stroke="#9ca3af" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M 50 -200 Q 60 -220 50 -240" stroke="#9ca3af" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+    
+    <!-- Base -->
+    <rect x="-90" y="80" width="180" height="70" fill="#db2777" opacity="0.9" rx="10"/>
+    <circle cx="-40" cy="115" r="12" fill="#fce7f3" opacity="0.8"/>
+    <circle cx="40" cy="115" r="12" fill="#fce7f3" opacity="0.8"/>
+  </g>
+  
+  <!-- Spoon with food -->
+  <g transform="translate(1270, 550)">
+    <ellipse cx="0" cy="0" rx="40" ry="30" fill="#f0abfc" opacity="0.8"/>
+    <rect x="-8" y="0" width="16" height="100" fill="#d946ef" opacity="0.9" rx="8"/>
+  </g>
+  
+  <!-- Hearts -->
+  <g transform="translate(500, 350)">
+    <path d="M 0 15 L -15 -5 Q -15 -20 -5 -20 Q 0 -15 0 -15 Q 0 -15 5 -20 Q 15 -20 15 -5 Z" 
+          fill="#f472b6" opacity="0.7"/>
+  </g>
+  
+  <g transform="translate(1420, 380)">
+    <path d="M 0 15 L -15 -5 Q -15 -20 -5 -20 Q 0 -15 0 -15 Q 0 -15 5 -20 Q 15 -20 15 -5 Z" 
+          fill="#f472b6" opacity="0.7"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="960" y="920" font-family="Arial, sans-serif" font-size="95" font-weight="bold" 
+        fill="#be185d" text-anchor="middle">
+    Baby Food Makers
+  </text>
+</svg>

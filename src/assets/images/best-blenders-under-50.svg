@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg-gradient-budget" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bfdbfe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-gradient-budget)"/>
+  
+  <!-- Price Tag Shape -->
+  <g transform="translate(960, 420)">
+    <!-- Tag -->
+    <path d="M -200 -150 L 200 -150 L 200 150 L 50 150 L 0 200 L -50 150 L -200 150 Z" 
+          fill="#3b82f6" opacity="0.9" stroke="#1e40af" stroke-width="4"/>
+    
+    <!-- Hole for string -->
+    <circle cx="0" cy="-100" r="25" fill="#1e3a8a" opacity="0.8"/>
+    <circle cx="0" cy="-100" r="15" fill="#dbeafe"/>
+    
+    <!-- Dollar sign -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="180" font-weight="bold" 
+          fill="#ffffff" text-anchor="middle">$50</text>
+  </g>
+  
+  <!-- Blender Icon -->
+  <g transform="translate(650, 600)">
+    <path d="M -35 -80 L -25 50 L 25 50 L 35 -80 Z" fill="#60a5fa" opacity="0.7"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="12" fill="#3b82f6" opacity="0.8"/>
+    <rect x="-25" y="50" width="50" height="30" fill="#1e40af" opacity="0.9" rx="3"/>
+  </g>
+  
+  <g transform="translate(1270, 600)">
+    <path d="M -35 -80 L -25 50 L 25 50 L 35 -80 Z" fill="#60a5fa" opacity="0.7"/>
+    <ellipse cx="0" cy="-80" rx="40" ry="12" fill="#3b82f6" opacity="0.8"/>
+    <rect x="-25" y="50" width="50" height="30" fill="#1e40af" opacity="0.9" rx="3"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="400" cy="300" r="8" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="450" cy="350" r="5" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="1520" cy="320" r="8" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="1470" cy="370" r="5" fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Text -->
+  <text x="960" y="900" font-family="Arial, sans-serif" font-size="90" font-weight="bold" 
+        fill="#1e40af" text-anchor="middle">
+    Best Budget Blenders
+  </text>
+</svg>

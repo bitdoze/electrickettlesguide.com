@@ -1,21 +1,17 @@
-https://www.smoothieblenderguide.com/best-countertop-blenders/
-https://www.smoothieblenderguide.com/professional-smoothie-maker-machine-for-a-high-end-kitchen-or-business/
-https://www.smoothieblenderguide.com/smoothie-glasses-with-lids-and-straws/
-https://www.smoothieblenderguide.com/best-blenders-under-50/
-https://www.smoothieblenderguide.com/travel-portable-blenders-for-smoothies/
-https://www.smoothieblenderguide.com/best-blender-baby-food/
 
 
-https://www.smoothieblenderguide.com/five-easy-to-make-smoothies-that-actually-make-your-life-better/
-https://www.smoothieblenderguide.com/healthy-smoothie-ingredients-for-a-well-balanced-diet/
-https://www.smoothieblenderguide.com/healthy-smoothies-for-toddlers-to-gain-weight/
-https://www.smoothieblenderguide.com/best-post-workout-smoothie-for-weight-loss/
-https://www.smoothieblenderguide.com/smoothie-for-energy-recipes/
+
+
 https://www.smoothieblenderguide.com/autumn-smoothie-recipes/
 https://www.smoothieblenderguide.com/cool-summer-smoothies-tips-tricks-high-season/
 https://www.smoothieblenderguide.com/how-to-clean-a-blender/
 https://www.smoothieblenderguide.com/diet-smoothie-recipes/
 https://www.smoothieblenderguide.com/how-to-make-green-smoothies-while-traveling/
+
+
+
+
+
 https://www.smoothieblenderguide.com/breakfast-smoothies/
 https://www.smoothieblenderguide.com/use-smoothie-blenders-diet/
 https://www.smoothieblenderguide.com/delicious-raw-vegan-sauce-recipes-complement-veggie-snacks/
@@ -29,25 +25,22 @@ https://www.smoothieblenderguide.com/the-ultimate-weight-loss-smoothie-recipes
 https://www.smoothieblenderguide.com/choose-best-smoothie-blender/
 
 
-https://www.smoothieblenderguide.com/best-green-smoothie-blender/
-https://www.smoothieblenderguide.com/best-blenders-under-100/
 
 
 
-I haev the below 10 articles written on an wordpress blog whick is old:
+I have the below 5 articles written on an wordpress blog whick is old:
 ---
-https://www.smoothieblenderguide.com/best-blender-to-crush-ice/
-https://www.smoothieblenderguide.com/best-countertop-blenders/
-https://www.smoothieblenderguide.com/best-smoothie-cups-travelling//
-https://www.smoothieblenderguide.com/best-easy-to-clean-smoothie-blender/
-https://www.smoothieblenderguide.com/best-hand-blender-for-smoothies/
-https://www.smoothieblenderguide.com/professional-smoothie-maker-machine-for-a-high-end-kitchen-or-business/
-https://www.smoothieblenderguide.com/smoothie-glasses-with-lids-and-straws/
-https://www.smoothieblenderguide.com/best-blenders-under-50/
-https://www.smoothieblenderguide.com/travel-portable-blenders-for-smoothies/
-https://www.smoothieblenderguide.com/best-blender-baby-food/
+
+https://www.smoothieblenderguide.com/five-easy-to-make-smoothies-that-actually-make-your-life-better/
+https://www.smoothieblenderguide.com/healthy-smoothie-ingredients-for-a-well-balanced-diet/
+https://www.smoothieblenderguide.com/healthy-smoothies-for-toddlers-to-gain-weight/
+https://www.smoothieblenderguide.com/best-post-workout-smoothie-for-weight-loss/
+https://www.smoothieblenderguide.com/smoothie-for-energy-recipes/
+
 ---
-Please go ahead and create a new one with the mdx details to work on this blog, make it complete. the URL should be: best-blender-to-crush-ice/ and best-blender-to-crush-ice.mdx, this is an example use the specific article url
-Please go ahead and fetch the top 5 products from amazon on the article subject  brightdata mcp and add it to AmazonProduct box, create 5 boxes per article
+Please go ahead and create a new one with the mdx details to work on this blog, make it complete. the URL should be: ive-easy-to-make-smoothies-that-actually-make-your-life-better/ and ive-easy-to-make-smoothies-that-actually-make-your-life-better.mdx, this is an example use the specific article url
 
 Use the guideline in agents.md file for writhing. Write an article at a time
+
+
+Please go ahead and fetch the top 5 products from amazon on the article subject  brightdata mcp and add it to AmazonProduct box, create 5 boxes per article
