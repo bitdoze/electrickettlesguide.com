@@ -4,19 +4,17 @@
     "favicon": "/favicon.ico"
   },
 
-  "settings": {
-  },
+  "settings": {},
 
-  "metadata": {
-  },
+  "metadata": {},
 
   "params": {
     "contact_form_action": "#"
   },
 
   "contactinfo": {
-    "address": "Smoothie Blender Guide HQ",
-    "email": "hello@smoothieblenderguide.com",
+    "address": "Electric Kettles Guide HQ",
+    "email": "hello@electrickettles.com",
     "phone": "+1 234 567 8900"
   }
 }

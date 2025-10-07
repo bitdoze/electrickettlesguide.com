@@ -59,9 +59,19 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> {/* Updated path */}
+    
+    <!-- Favicons - Electric Kettles Guide -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> {/* Added apple-touch-icon */}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#3B82F6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1E40AF" media="(prefers-color-scheme: dark)" />
    
     <meta name="generator" content={Astro.generator} />
     

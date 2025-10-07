@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle.astro";
 import { Image } from "astro:assets";
 import menu from "@config/menu.json";
 import { siteConfig } from "@config/site"; // Import siteConfig
-import logoSVG from "@assets/favicons/smoothie-blender-guide-logo.svg";
+import logoSVG from "@assets/favicons/electric-kettles-guide-logo.svg";
 
 // Extract main menu items
 const mainMenu = menu.main;
@@ -18,8 +18,8 @@ const mainMenu = menu.main;
           <Image 
             src={logoSVG} 
             alt={siteConfig.title + ' Logo'} 
-            width={240} 
-            height={72} 
+            width={300} 
+            height={90} 
             class="mr-2"
           />
         </a>
