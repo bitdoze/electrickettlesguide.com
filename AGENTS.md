@@ -29,7 +29,7 @@ Date: 01 October 2025
 - **Types**: Define schema with Zod for content collections
 - **Frontmatter**: Required title, optional meta_title, description, image, authors[], categories[], tags[]
 
-## Tools for Amazon
+## Tools for Amazon Product
 
 - **Amazon Product Search** - use brightdata-mcp to search amazon products, choose the best ones. you can use their tools like:
 - - web_data_amazon_product - Product details, specs, pricing

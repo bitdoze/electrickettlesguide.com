@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- Background with modern gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <!-- Decorative cordless kettle icon -->
+  <g transform="translate(200, 300)">
+    <ellipse cx="100" cy="220" rx="80" ry="25" fill="#42A5F5" opacity="0.3"/>
+    <path d="M 50 220 Q 40 150 50 100 L 150 100 Q 160 150 150 220 Z" fill="#1976D2" opacity="0.5"/>
+    <path d="M 150 160 Q 210 140 230 160 Q 220 180 160 190 Z" fill="#1976D2" opacity="0.5"/>
+    <rect x="85" y="85" width="30" height="25" rx="12" fill="#1976D2" opacity="0.5"/>
+    <!-- Wireless symbol -->
+    <g transform="translate(100, 50)">
+      <path d="M -15 0 Q -15 -20 0 -20 Q 15 -20 15 0" stroke="#2196F3" stroke-width="3" fill="none" opacity="0.6"/>
+      <path d="M -25 10 Q -25 -30 0 -30 Q 25 -30 25 10" stroke="#2196F3" stroke-width="3" fill="none" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <g transform="translate(1250, 300)">
+    <ellipse cx="100" cy="220" rx="80" ry="25" fill="#42A5F5" opacity="0.3"/>
+    <path d="M 50 220 Q 40 150 50 100 L 150 100 Q 160 150 150 220 Z" fill="#1976D2" opacity="0.5"/>
+    <path d="M 50 160 Q -10 140 -30 160 Q -20 180 40 190 Z" fill="#1976D2" opacity="0.5"/>
+    <rect x="85" y="85" width="30" height="25" rx="12" fill="#1976D2" opacity="0.5"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="800" y="420" font-family="Arial, sans-serif" font-size="105" font-weight="bold" fill="#0D47A1" text-anchor="middle">
+    Best Cordless Kettles
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="800" y="530" font-family="Arial, sans-serif" font-size="50" fill="#1565C0" text-anchor="middle">
+    2025 Expert Reviews
+  </text>
+</svg>

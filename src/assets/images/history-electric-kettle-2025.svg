@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgHist" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bgHist)"/>
+  
+  <!-- Timeline visualization -->
+  <line x1="200" y1="700" x2="1400" y2="700" stroke="#e65100" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Timeline points -->
+  <circle cx="350" cy="700" r="20" fill="#e65100"/>
+  <circle cx="650" cy="700" r="20" fill="#e65100"/>
+  <circle cx="950" cy="700" r="20" fill="#e65100"/>
+  <circle cx="1250" cy="700" r="20" fill="#e65100"/>
+  
+  <!-- Vintage kettle silhouette -->
+  <g opacity="0.12">
+    <ellipse cx="400" cy="450" rx="120" ry="40" fill="#bf360c"/>
+    <path d="M 280 450 Q 280 300 400 250 Q 520 300 520 450 Z" fill="#bf360c"/>
+    <rect x="385" y="180" width="30" height="70" rx="15" fill="#bf360c"/>
+    <path d="M 520 360 Q 620 360 620 395 Q 620 430 520 430" fill="none" stroke="#bf360c" stroke-width="18"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="800" y="280" font-family="Arial, sans-serif" font-size="100" font-weight="bold" fill="#bf360c" text-anchor="middle">
+    Electric Kettle
+  </text>
+  
+  <text x="800" y="380" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#e65100" text-anchor="middle">
+    History
+  </text>
+  
+  <!-- Subtitle -->
+  <rect x="600" y="480" width="400" height="60" rx="30" fill="#e65100"/>
+  <text x="800" y="524" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+    1891 to Today
+  </text>
+</svg>
