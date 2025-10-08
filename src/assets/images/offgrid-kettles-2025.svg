@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f8e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c5e1a5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg8)"/>
+  
+  <!-- Kettle -->
+  <ellipse cx="450" cy="520" rx="100" ry="28" fill="#558b2f" opacity="0.3"/>
+  <path d="M 350 520 L 350 360 Q 350 300 380 270 L 520 270 Q 550 300 550 360 L 550 520 Z" fill="#689f38" opacity="0.9"/>
+  <ellipse cx="450" cy="270" rx="80" ry="24" fill="#558b2f"/>
+  
+  <!-- Solar panel -->
+  <rect x="700" y="320" width="200" height="140" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="4"/>
+  <line x1="710" y1="340" x2="890" y2="340" stroke="#0d47a1" stroke-width="2"/>
+  <line x1="710" y1="370" x2="890" y2="370" stroke="#0d47a1" stroke-width="2"/>
+  <line x1="710" y1="400" x2="890" y2="400" stroke="#0d47a1" stroke-width="2"/>
+  <line x1="710" y1="430" x2="890" y2="430" stroke="#0d47a1" stroke-width="2"/>
+  <line x1="760" y1="320" x2="760" y2="460" stroke="#0d47a1" stroke-width="2"/>
+  <line x1="840" y1="320" x2="840" y2="460" stroke="#0d47a1" stroke-width="2"/>
+  
+  <!-- Sun -->
+  <circle cx="800" cy="220" r="40" fill="#ffd54f"/>
+  <path d="M 800 160 L 800 180 M 800 260 L 800 280 M 760 220 L 740 220 M 860 220 L 840 220 M 765 175 L 780 190 M 820 250 L 835 265 M 765 265 L 780 250 M 820 190 L 835 175" stroke="#ffd54f" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Battery -->
+  <rect x="1050" y="360" width="120" height="80" rx="8" fill="#43a047" stroke="#2e7d32" stroke-width="4"/>
+  <rect x="1100" y="340" width="20" height="20" fill="#2e7d32"/>
+  <text x="1110" y="410" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+  
+  <!-- Connection lines -->
+  <path d="M 580 400 L 700 400" stroke="#558b2f" stroke-width="6" stroke-dasharray="10,5"/>
+  <path d="M 900 400 L 1050 400" stroke="#558b2f" stroke-width="6" stroke-dasharray="10,5"/>
+  
+  <!-- Text -->
+  <text x="800" y="650" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#558b2f" text-anchor="middle">Off-Grid Kettle Power</text>
+  <text x="800" y="740" font-family="Arial, sans-serif" font-size="48" fill="#689f38" text-anchor="middle">Solar and Generators</text>
+</svg>

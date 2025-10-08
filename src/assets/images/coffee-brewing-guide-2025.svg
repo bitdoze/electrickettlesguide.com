@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8e4c1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <!-- Coffee Cup -->
+  <ellipse cx="800" cy="500" rx="120" ry="35" fill="#8B4513" opacity="0.3"/>
+  <path d="M 680 500 Q 680 420 700 380 L 900 380 Q 920 420 920 500 Z" fill="#6F4E37" opacity="0.9"/>
+  <path d="M 690 490 Q 690 430 705 400 L 895 400 Q 910 430 910 490 Z" fill="#8B6F47"/>
+  <ellipse cx="800" cy="400" rx="100" ry="25" fill="#3E2723"/>
+  
+  <!-- Steam -->
+  <path d="M 740 360 Q 735 340 740 320 Q 745 340 740 360" fill="none" stroke="#A0826D" stroke-width="3" opacity="0.6"/>
+  <path d="M 800 350 Q 795 330 800 310 Q 805 330 800 350" fill="none" stroke="#A0826D" stroke-width="3" opacity="0.6"/>
+  <path d="M 860 360 Q 855 340 860 320 Q 865 340 860 360" fill="none" stroke="#A0826D" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Kettle Spout -->
+  <path d="M 920 450 Q 980 440 1020 460 Q 980 480 920 470 Z" fill="#4A5568" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="800" y="680" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#3E2723" text-anchor="middle">Coffee Brewing Guide</text>
+  <text x="800" y="770" font-family="Arial, sans-serif" font-size="48" fill="#6F4E37" text-anchor="middle">Perfect Pour Every Time</text>
+</svg>

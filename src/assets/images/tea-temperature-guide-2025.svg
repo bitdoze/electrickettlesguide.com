@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6d3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+  
+  <!-- Teacup -->
+  <ellipse cx="800" cy="520" rx="130" ry="35" fill="#5d7e5f" opacity="0.3"/>
+  <path d="M 670 520 L 690 420 Q 690 380 710 360 L 890 360 Q 910 380 910 420 L 930 520 Z" fill="#8fbc8f"/>
+  <ellipse cx="800" cy="360" rx="90" ry="25" fill="#6b8e6b"/>
+  
+  <!-- Tea leaves floating -->
+  <ellipse cx="750" cy="400" rx="15" ry="8" fill="#4a6b4a" opacity="0.6"/>
+  <ellipse cx="820" cy="420" rx="12" ry="7" fill="#4a6b4a" opacity="0.6"/>
+  <ellipse cx="780" cy="450" rx="14" ry="8" fill="#4a6b4a" opacity="0.6"/>
+  
+  <!-- Thermometer -->
+  <rect x="950" y="340" width="40" height="180" rx="20" fill="#fff" opacity="0.9" stroke="#2d5a2d" stroke-width="3"/>
+  <rect x="965" y="440" width="10" height="70" rx="5" fill="#e74c3c"/>
+  <circle cx="970" cy="505" r="18" fill="#e74c3c"/>
+  <line x1="970" y1="360" x2="970" y2="510" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="800" y="680" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#2d5a2d" text-anchor="middle">Tea Temperature Guide</text>
+  <text x="800" y="770" font-family="Arial, sans-serif" font-size="48" fill="#5d7e5f" text-anchor="middle">Perfect Brewing Every Time</text>
+</svg>

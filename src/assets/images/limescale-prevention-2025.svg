@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90caf9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg7)"/>
+  
+  <!-- Clean kettle (left side) -->
+  <ellipse cx="500" cy="520" rx="100" ry="28" fill="#1565c0" opacity="0.3"/>
+  <path d="M 400 520 L 400 350 Q 400 290 425 260 L 575 260 Q 600 290 600 350 L 600 520 Z" fill="#1e88e5" opacity="0.9"/>
+  <ellipse cx="500" cy="260" rx="80" ry="24" fill="#1565c0"/>
+  
+  <!-- Sparkles (clean symbol) -->
+  <path d="M 520 400 L 525 415 L 540 420 L 525 425 L 520 440 L 515 425 L 500 420 L 515 415 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M 480 360 L 484 372 L 496 376 L 484 380 L 480 392 L 476 380 L 464 376 L 476 372 Z" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Shield (protection symbol) -->
+  <path d="M 1100 280 L 1100 420 Q 1100 480 1050 520 Q 1000 480 1000 420 L 1000 280 Z" fill="#42a5f5" stroke="#1565c0" stroke-width="6"/>
+  <path d="M 1020 360 L 1040 390 L 1080 330" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Arrows showing prevention -->
+  <path d="M 650 400 L 750 400" stroke="#1565c0" stroke-width="8" marker-end="url(#arrowhead)"/>
+  <path d="M 720 370 L 750 400 L 720 430" fill="none" stroke="#1565c0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="800" y="700" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#1565c0" text-anchor="middle">Prevent Limescale</text>
+  <text x="800" y="790" font-family="Arial, sans-serif" font-size="48" fill="#1e88e5" text-anchor="middle">Stop Buildup Before It Starts</text>
+</svg>

@@ -49,6 +49,7 @@ Date: 01 October 2025
 - **Widgets**: Include in article the widgets created under widget section, don't use to much to not make the article not readable.
 - **Image**: Create an svg image for the mdx article and store it in the assets/images. Make it simple and look nice without to much elements and a short text that is bigger and visible on any device with maximum 5 words. Use a nice background with a lighter colour that looks nice 16:9 format.
 - **Amazon Products**: You add the amazon products with the needed details for the box: `<AmazonProduct productName="Kettle Name" productDescription="Description" productFeatures={["Feature 1", "Feature 2"]} productLink="https://amazon.com/dp/ASIN" productImage="https://example.com/image.jpg" productRating={4.5} importantConsiderations={["Note 1", "Note 2"]} pros={["Pro 1", "Pro 2"]} cons={["Con 1", "Con 2"]} recommendedBadge="Best Budget" />` the image is the one from amazon and the link should be with "https://amazon.com/dp/ASIN". The `recommendedBadge` parameter is optional and displays a colored badge in the product header (e.g., "Best Budget", "Best Overall", "Editor's Choice", "Best for Professionals", "Best Premium", etc.)
+- **New Articles**: for new articles add the link in public/links.txt at the end.
 
 
 ## Available Widgets (import from @components/widgets/)

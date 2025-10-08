@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe082;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg4)"/>
+  
+  <!-- Kettle -->
+  <ellipse cx="650" cy="520" rx="110" ry="30" fill="#5d4a37" opacity="0.3"/>
+  <path d="M 540 520 L 540 360 Q 540 300 570 270 L 730 270 Q 760 300 760 360 L 760 520 Z" fill="#7d6a5a" opacity="0.9"/>
+  <ellipse cx="650" cy="270" rx="80" ry="25" fill="#5d4a37"/>
+  
+  <!-- Lightning bolt (energy symbol) -->
+  <path d="M 920 320 L 870 420 L 920 420 L 870 520 L 970 420 L 920 420 Z" fill="#ffd54f" stroke="#f57f17" stroke-width="4"/>
+  
+  <!-- Dollar sign -->
+  <text x="1080" y="460" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#f57f17" opacity="0.9">$</text>
+  
+  <!-- Text -->
+  <text x="800" y="700" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#f57f17" text-anchor="middle">Energy Cost Guide</text>
+  <text x="800" y="790" font-family="Arial, sans-serif" font-size="48" fill="#7d6a5a" text-anchor="middle">Real Costs of Boiling Water</text>
+</svg>
