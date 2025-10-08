@@ -1,0 +1,26 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#FFF4E6"/>
+  
+  <!-- Electric Kettle -->
+  <path d="M600 450 Q600 350 700 350 L900 350 Q1000 350 1000 450 L1000 650 Q1000 700 950 700 L650 700 Q600 700 600 650 Z" fill="#E0E0E0" stroke="#333" stroke-width="3"/>
+  <rect x="1000" y="500" width="80" height="40" rx="5" fill="#333"/>
+  <circle cx="800" cy="550" r="100" fill="#FFE082" opacity="0.3"/>
+  <line x1="650" y1="380" x2="950" y2="380" stroke="#999" stroke-width="2"/>
+  
+  <!-- Popcorn kernels popping out -->
+  <circle cx="750" cy="250" r="25" fill="#FFF9C4"/>
+  <circle cx="850" cy="280" r="20" fill="#FFF9C4"/>
+  <circle cx="820" cy="200" r="22" fill="#FFF9C4"/>
+  <circle cx="900" cy="240" r="18" fill="#FFF59D"/>
+  <circle cx="700" cy="290" r="23" fill="#FFF9C4"/>
+  <circle cx="780" cy="220" r="19" fill="#FFF59D"/>
+  
+  <!-- Motion lines -->
+  <path d="M750 320 L750 260" stroke="#FFB74D" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M850 340 L850 290" stroke="#FFB74D" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  <path d="M820 320 L820 230" stroke="#FFB74D" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="800" y="820" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#D84315" text-anchor="middle">Kettle Popcorn Guide</text>
+</svg>

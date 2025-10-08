@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <!-- Kettle illustration -->
+  <g transform="translate(800, 350)">
+    <!-- Kettle body -->
+    <ellipse cx="0" cy="80" rx="140" ry="130" fill="#1976d2" opacity="0.9"/>
+    <rect x="-120" y="-50" width="240" height="130" fill="#1976d2" opacity="0.9" rx="20"/>
+    
+    <!-- Kettle handle -->
+    <path d="M 140 -20 Q 200 20 180 80" stroke="#1565c0" stroke-width="18" fill="none" stroke-linecap="round"/>
+    
+    <!-- Kettle lid -->
+    <ellipse cx="0" cy="-50" rx="90" ry="20" fill="#1565c0"/>
+    <circle cx="0" cy="-60" r="15" fill="#0d47a1"/>
+    
+    <!-- Power base indicator -->
+    <rect x="-130" y="180" width="260" height="15" fill="#1565c0" opacity="0.7" rx="7"/>
+    
+    <!-- Steam effect -->
+    <path d="M -40 -80 Q -45 -120 -40 -150" stroke="#64b5f6" stroke-width="3" fill="none" opacity="0.5"/>
+    <path d="M 0 -85 Q -5 -130 0 -165" stroke="#64b5f6" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M 40 -80 Q 45 -120 40 -150" stroke="#64b5f6" stroke-width="3" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="800" y="650" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#0d47a1" text-anchor="middle">
+    Best Small Kettles 2025
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="150" r="40" fill="#1976d2" opacity="0.2"/>
+  <circle cx="1450" cy="200" r="60" fill="#1976d2" opacity="0.2"/>
+  <circle cx="200" cy="750" r="50" fill="#42a5f5" opacity="0.2"/>
+  <circle cx="1400" cy="700" r="45" fill="#42a5f5" opacity="0.2"/>
+</svg>

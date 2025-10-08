@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#E8F5E9"/>
+  
+  <!-- Teapot -->
+  <ellipse cx="400" cy="450" rx="120" ry="100" fill="#81C784"/>
+  <path d="M280 450 Q280 350 400 350 Q520 350 520 450" fill="#81C784" stroke="#2E7D32" stroke-width="3"/>
+  <circle cx="400" cy="380" r="15" fill="#FFEB3B"/>
+  <path d="M520 420 Q580 420 580 460 Q580 500 520 500" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  <path d="M280 380 Q230 340 220 320 Q210 300 240 290 L250 350 Q270 370 280 380" fill="#2E7D32"/>
+  
+  <!-- Kettle -->
+  <path d="M750 500 Q750 350 900 350 Q1050 350 1050 500 L1050 650 Q1050 680 1020 680 L780 680 Q750 680 750 650 Z" fill="#B0BEC5" stroke="#37474F" stroke-width="3"/>
+  <rect x="1050" y="520" width="70" height="35" rx="5" fill="#37474F"/>
+  <path d="M800 380 Q800 360 820 360 L980 360 Q1000 360 1000 380" stroke="#37474F" stroke-width="2" fill="none"/>
+  
+  <!-- Warmer -->
+  <rect x="1250" y="550" width="200" height="120" rx="10" fill="#FFE0B2"/>
+  <ellipse cx="1350" cy="550" rx="80" ry="40" fill="#FFE0B2" stroke="#E65100" stroke-width="2"/>
+  <circle cx="1350" cy="620" r="15" fill="#FF6F00"/>
+  <path d="M1330 600 L1330 585 M1350 600 L1350 575 M1370 600 L1370 585" stroke="#FF6F00" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="800" y="820" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#1B5E20" text-anchor="middle">Tea Tool Guide</text>
+</svg>

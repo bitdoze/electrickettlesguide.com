@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8E0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg-gradient)"/>
+  
+  <!-- Kettle Icon -->
+  <g transform="translate(650, 280)">
+    <!-- Kettle Body -->
+    <path d="M 50 150 L 30 300 Q 30 330 60 330 L 240 330 Q 270 330 270 300 L 250 150 Z" 
+          fill="#2C5F7C" opacity="0.9"/>
+    <!-- Kettle Handle -->
+    <path d="M 260 200 Q 320 200 320 250 Q 320 300 260 300" 
+          fill="none" stroke="#2C5F7C" stroke-width="12" opacity="0.9"/>
+    <!-- Kettle Spout -->
+    <path d="M 40 250 L -20 280 Q -30 285 -25 295 L -10 305 Q -5 310 5 305 L 45 275" 
+          fill="#2C5F7C" opacity="0.9"/>
+    <!-- Kettle Lid -->
+    <ellipse cx="150" cy="150" rx="55" ry="15" fill="#355E7D" opacity="0.9"/>
+    <!-- Lid Knob -->
+    <ellipse cx="150" cy="140" rx="15" ry="10" fill="#2C5F7C" opacity="0.9"/>
+    <!-- Temperature Display -->
+    <rect x="100" y="220" width="100" height="50" rx="5" fill="#4A90A4" opacity="0.8"/>
+    <text x="150" y="252" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">185°F</text>
+    <!-- Temperature Lines (indicator) -->
+    <line x1="70" y1="260" x2="90" y2="260" stroke="#4A90A4" stroke-width="3" opacity="0.6"/>
+    <line x1="70" y1="240" x2="90" y2="240" stroke="#4A90A4" stroke-width="3" opacity="0.6"/>
+    <line x1="70" y1="220" x2="90" y2="220" stroke="#4A90A4" stroke-width="3" opacity="0.6"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="800" y="680" font-family="Arial, sans-serif" font-size="82" fill="#1A4D5E" text-anchor="middle" font-weight="bold">
+    Variable Temperature
+  </text>
+  <text x="800" y="770" font-family="Arial, sans-serif" font-size="82" fill="#1A4D5E" text-anchor="middle" font-weight="bold">
+    Kettles 2025
+  </text>
+</svg>

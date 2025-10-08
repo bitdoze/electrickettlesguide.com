@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#E3F2FD"/>
+  
+  <!-- Kettle on left -->
+  <path d="M400 500 Q400 350 550 350 Q700 350 700 500 L700 650 Q700 680 670 680 L430 680 Q400 680 400 650 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="3"/>
+  <rect x="700" y="520" width="70" height="35" rx="5" fill="#0D47A1"/>
+  <circle cx="550" cy="550" r="80" fill="#FFC107" opacity="0.3"/>
+  <path d="M450 400 Q450 380 470 380 L630 380 Q650 380 650 400" stroke="#0D47A1" stroke-width="2" fill="none"/>
+  
+  <!-- VS text in center -->
+  <text x="800" y="480" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#1565C0" text-anchor="middle">VS</text>
+  
+  <!-- Microwave on right -->
+  <rect x="950" y="400" width="300" height="200" rx="10" fill="#757575" stroke="#424242" stroke-width="3"/>
+  <rect x="970" y="420" width="180" height="160" rx="5" fill="#B0BEC5"/>
+  <circle cx="1230" cy="500" r="20" fill="#424242"/>
+  <circle cx="1230" cy="500" r="8" fill="#FFC107"/>
+  <rect x="1160" y="550" width="60" height="8" rx="4" fill="#424242"/>
+  <rect x="1160" y="570" width="60" height="8" rx="4" fill="#424242"/>
+  
+  <!-- Steam/waves from both -->
+  <path d="M450 300 Q450 280 460 280 Q470 280 470 300" stroke="#90CAF9" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M500 280 Q500 260 510 260 Q520 260 520 280" stroke="#90CAF9" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M550 300 Q550 280 560 280 Q570 280 570 300" stroke="#90CAF9" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <path d="M1000 380 Q990 370 1000 360" stroke="#90CAF9" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M1060 370 Q1050 360 1060 350" stroke="#90CAF9" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M1120 380 Q1110 370 1120 360" stroke="#90CAF9" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="800" y="820" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="#0D47A1" text-anchor="middle">Boiling Showdown 2025</text>
+</svg>

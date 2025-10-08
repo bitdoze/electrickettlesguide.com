@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bgGradient)"/>
+  
+  <!-- Main Kettle -->
+  <g transform="translate(800, 320)">
+    <ellipse cx="0" cy="120" rx="140" ry="25" fill="#90a4ae" opacity="0.3"/>
+    <rect x="-90" y="30" width="180" height="140" rx="18" fill="#455a64" stroke="#607d8b" stroke-width="4"/>
+    <rect x="-80" y="40" width="160" height="120" rx="12" fill="#546e7a"/>
+    <rect x="-85" y="-25" width="170" height="60" rx="10" fill="#607d8b"/>
+    <path d="M 100 80 L 160 80 Q 180 80 180 100 Q 180 120 160 120 L 100 120" fill="none" stroke="#607d8b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Coffee Cup Icon -->
+  <g transform="translate(600, 380)">
+    <rect x="-20" y="0" width="40" height="35" rx="3" fill="#795548"/>
+    <path d="M 25 15 L 40 15 Q 45 15 45 20 Q 45 25 40 25 L 25 25" fill="none" stroke="#795548" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Plus Sign -->
+  <g transform="translate(750, 390)">
+    <circle cx="0" cy="0" r="18" fill="#ff6f00"/>
+    <path d="M -10 0 L 10 0 M 0 -10 L 0 10" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Food/Cooking Icon -->
+  <g transform="translate(1000, 380)">
+    <circle cx="0" cy="15" r="15" fill="#4caf50"/>
+    <circle cx="-12" cy="0" r="10" fill="#66bb6a"/>
+    <circle cx="12" cy="0" r="10" fill="#66bb6a"/>
+  </g>
+  
+  <text x="800" y="620" font-family="Arial, sans-serif" font-size="88" font-weight="bold" fill="#ff6f00" text-anchor="middle">Multipurpose Kettles</text>
+  
+  <text x="800" y="720" font-family="Arial, sans-serif" font-size="46" fill="#5d4037" text-anchor="middle">Cook, Brew & More</text>
+</svg>
