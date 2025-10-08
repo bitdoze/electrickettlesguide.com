@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#E8F4F8"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="80" fill="#B8E0F0" opacity="0.4"/>
+  <circle cx="1400" cy="750" r="100" fill="#B8E0F0" opacity="0.4"/>
+  <circle cx="1350" cy="200" r="60" fill="#D0EDF7" opacity="0.5"/>
+  
+  <!-- Kettle illustration -->
+  <g transform="translate(300, 250)">
+    <!-- Kettle body -->
+    <ellipse cx="200" cy="280" rx="140" ry="20" fill="#C0C0C0" opacity="0.3"/>
+    <path d="M 100 150 Q 90 200 100 250 L 100 280 L 300 280 L 300 250 Q 310 200 300 150 Z" 
+          fill="#4A90A4" stroke="#2C5F6F" stroke-width="3"/>
+    
+    <!-- Handle -->
+    <path d="M 320 180 Q 380 180 380 230 Q 380 280 320 280" 
+          fill="none" stroke="#2C5F6F" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Lid -->
+    <ellipse cx="200" cy="150" rx="100" ry="25" fill="#5BA3BA" stroke="#2C5F6F" stroke-width="3"/>
+    <circle cx="200" cy="140" r="12" fill="#2C5F6F"/>
+    
+    <!-- Steam -->
+    <path d="M 180 120 Q 175 90 180 60" fill="none" stroke="#A0D8E8" 
+          stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 200 110 Q 200 80 205 50" fill="none" stroke="#A0D8E8" 
+          stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 220 120 Q 225 90 220 60" fill="none" stroke="#A0D8E8" 
+          stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    
+    <!-- Sparkle effects -->
+    <circle cx="120" cy="200" r="6" fill="#FFD700" opacity="0.8"/>
+    <circle cx="280" cy="220" r="5" fill="#FFD700" opacity="0.8"/>
+    <circle cx="200" cy="180" r="7" fill="#FFD700" opacity="0.9"/>
+  </g>
+  
+  <!-- Cleaning droplets -->
+  <g transform="translate(700, 400)">
+    <circle cx="50" cy="0" r="25" fill="#4A90A4" opacity="0.6"/>
+    <circle cx="100" cy="30" r="20" fill="#5BA3BA" opacity="0.6"/>
+    <circle cx="150" cy="10" r="22" fill="#4A90A4" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="800" y="380" font-family="Arial, sans-serif" font-size="110" 
+        font-weight="bold" fill="#1A4855" text-anchor="middle">
+    Best Kettle
+  </text>
+  <text x="800" y="520" font-family="Arial, sans-serif" font-size="110" 
+        font-weight="bold" fill="#1A4855" text-anchor="middle">
+    Descalers
+  </text>
+</svg>

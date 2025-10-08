@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  
+  <g transform="translate(800, 350)">
+    <circle cx="0" cy="0" r="120" fill="#1976d2" opacity="0.1"/>
+    <path d="M -60 -40 L -60 20 Q -60 40 -40 40 L 40 40 Q 60 40 60 20 L 60 -40 Q 60 -60 40 -60 L -40 -60 Q -60 -60 -60 -40 Z" fill="none" stroke="#1976d2" stroke-width="8" stroke-linecap="round"/>
+    <line x1="0" y1="-30" x2="0" y2="10" stroke="#1976d2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="20" r="8" fill="#1976d2"/>
+    <text x="70" y="10" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1565c0">°F</text>
+  </g>
+  
+  <text x="800" y="600" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="#0d47a1" text-anchor="middle">
+    Temperature Control
+  </text>
+</svg>

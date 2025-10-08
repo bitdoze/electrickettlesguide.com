@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE5E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB3B3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g transform="translate(350, 180)">
+    <ellipse cx="450" cy="470" rx="300" ry="50" fill="#C44545" opacity="0.2"/>
+
+    <path d="M 300 350 Q 290 320 300 290 C 300 250 350 220 400 220 L 500 220 C 550 220 600 250 600 290 Q 610 320 600 350 L 580 420 Q 570 450 500 450 L 400 450 Q 330 450 320 420 Z"
+          fill="#D65555" stroke="#A03030" stroke-width="4"/>
+
+    <circle cx="380" cy="300" r="10" fill="#FFD6D6" opacity="0.8"/>
+    <circle cx="470" cy="300" r="10" fill="#FFD6D6" opacity="0.8"/>
+    <circle cx="520" cy="300" r="10" fill="#FFD6D6" opacity="0.8"/>
+
+    <path d="M 180 320 Q 150 290 180 260" fill="none" stroke="#D65555" stroke-width="22" stroke-linecap="round"/>
+    <rect x="160" y="290" width="25" height="110" rx="12" fill="#D65555"/>
+
+    <path d="M 380 340 L 390 360 L 380 380" fill="none" stroke="#A03030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 450 340 L 460 360 L 450 380" fill="none" stroke="#A03030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 520 340 L 530 360 L 520 380" fill="none" stroke="#A03030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <ellipse cx="450" cy="455" rx="140" ry="20" fill="#A03030" opacity="0.4"/>
+  </g>
+
+  <text x="800" y="600" font-family="Arial, sans-serif" font-size="130" font-weight="bold" fill="#A03030" text-anchor="middle">
+    Fast Boil
+  </text>
+  <text x="800" y="730" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#D65555" text-anchor="middle">
+    Kettles
+  </text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#F0F4F8"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="180" cy="200" r="70" fill="#C8D8E8" opacity="0.4"/>
+  <circle cx="1400" cy="700" r="90" fill="#C8D8E8" opacity="0.4"/>
+  <circle cx="1350" cy="180" r="60" fill="#D8E4F0" opacity="0.5"/>
+  
+  <!-- Desk illustration -->
+  <g transform="translate(150, 500)">
+    <!-- Desk surface -->
+    <rect x="0" y="100" width="350" height="15" fill="#8B7355" rx="3"/>
+    <!-- Desk legs -->
+    <rect x="20" y="115" width="12" height="100" fill="#6B5A45"/>
+    <rect x="318" y="115" width="12" height="100" fill="#6B5A45"/>
+  </g>
+  
+  <!-- Books stack -->
+  <g transform="translate(180, 520)">
+    <rect x="0" y="0" width="80" height="15" fill="#5B8AA8" rx="2"/>
+    <rect x="5" y="15" width="70" height="15" fill="#6B7A98" rx="2"/>
+    <rect x="10" y="30" width="60" height="15" fill="#7B8AB8" rx="2"/>
+  </g>
+  
+  <!-- Compact electric kettle -->
+  <g transform="translate(520, 450)">
+    <!-- Kettle shadow -->
+    <ellipse cx="80" cy="150" rx="50" ry="12" fill="#9A9A9A" opacity="0.3"/>
+    
+    <!-- Kettle body -->
+    <path d="M 50 80 Q 45 100 50 140 L 50 150 L 110 150 L 110 140 Q 115 100 110 80 Z" 
+          fill="#5B7FA8" stroke="#4A6A88" stroke-width="3"/>
+    
+    <!-- Handle -->
+    <path d="M 115 95 Q 140 95 140 115 Q 140 135 115 135" 
+          fill="none" stroke="#4A6A88" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Lid -->
+    <ellipse cx="80" cy="80" rx="35" ry="10" fill="#6B8FB8" stroke="#4A6A88" stroke-width="2"/>
+    <circle cx="80" cy="76" r="5" fill="#4A6A88"/>
+    
+    <!-- LED indicator -->
+    <circle cx="80" cy="110" r="4" fill="#4A90E2" opacity="0.9"/>
+    
+    <!-- Steam -->
+    <path d="M 68 70 Q 65 52 68 35" fill="none" stroke="#C8D8E8" 
+          stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 80 66 Q 80 46 82 28" fill="none" stroke="#C8D8E8" 
+          stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 92 70 Q 95 52 92 35" fill="none" stroke="#C8D8E8" 
+          stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  
+  <!-- Coffee mug -->
+  <g transform="translate(750, 530)">
+    <ellipse cx="35" cy="70" rx="25" ry="7" fill="#6A6A6A" opacity="0.3"/>
+    <path d="M 15 35 L 15 65 Q 15 70 20 70 L 50 70 Q 55 70 55 65 L 55 35 Z" 
+          fill="#7A5A4A" stroke="#5A4A3A" stroke-width="2"/>
+    <path d="M 60 45 Q 72 45 72 55 Q 72 65 60 65" 
+          fill="none" stroke="#5A4A3A" stroke-width="2"/>
+    <!-- Steam from mug -->
+    <path d="M 25 28 Q 23 18 25 8" fill="none" stroke="#C8D8E8" 
+          stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 45 28 Q 47 18 45 8" fill="none" stroke="#C8D8E8" 
+          stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  
+  <!-- Laptop (closed) -->
+  <g transform="translate(220, 560)">
+    <!-- Laptop base -->
+    <rect x="0" y="0" width="120" height="8" fill="#6A7A9A" rx="2"/>
+    <!-- Laptop screen edge -->
+    <rect x="2" y="-3" width="116" height="3" fill="#4A5A7A" rx="1"/>
+  </g>
+  
+  <!-- Pencil holder with items -->
+  <g transform="translate(380, 530)">
+    <!-- Holder -->
+    <rect x="0" y="20" width="35" height="50" fill="#8A9AAA" rx="3"/>
+    <!-- Pencil -->
+    <rect x="8" y="5" width="5" height="65" fill="#E8B858" rx="1"/>
+    <polygon points="10.5,2 8,5 13,5" fill="#9A8848"/>
+    <!-- Pen -->
+    <rect x="22" y="10" width="4" height="60" fill="#5A7A9A" rx="1"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="800" y="320" font-family="Arial, sans-serif" font-size="110" 
+        font-weight="bold" fill="#3A5A7A" text-anchor="middle">
+    Best Kettles for
+  </text>
+  <text x="800" y="460" font-family="Arial, sans-serif" font-size="110" 
+        font-weight="bold" fill="#3A5A7A" text-anchor="middle">
+    Dorm Rooms
+  </text>
+</svg>
