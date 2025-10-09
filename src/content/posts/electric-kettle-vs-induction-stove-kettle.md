@@ -3,8 +3,8 @@ date: 2024-01-16T00:00:00Z
 title: "Electric Kettle vs Induction Stove Kettle: A Comprehensive Comparison"
 description: "Discover the key differences between electric kettles and induction stove kettles. Learn about their energy efficiency, versatility, and user convenience to make an informed choice for your kitchen."
 image: "../../assets/images/electric-kettle-bs-induction.jpeg"
-categories: ["kettle-tips", "appliance-comparison"]
-authors: ["ElectricKettlesGuide Team"]
+categories: ["kettle-tips"]
+authors: ["Dragos"]
 tags: ["electric kettle", "induction kettle", "energy efficiency", "kitchen appliances"]
 canonical: "https://www.electrickettlesguide.com/electric-kettle-vs-induction-stove-kettle/"
 ---

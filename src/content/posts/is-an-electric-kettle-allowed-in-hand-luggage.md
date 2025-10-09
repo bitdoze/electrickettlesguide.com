@@ -3,7 +3,7 @@ date: 2024-01-23T00:00:00Z
 title: "Can You Pack an Electric Kettle in Your Hand Luggage? A Comprehensive Guide"
 description: "Discover the rules and regulations surrounding electric kettles in hand luggage. Learn about airport security guidelines, travel-friendly kettle options, and tips for hassle-free travel with your favorite appliance."
 image: "../../assets/images/is-an-electric-kettle-allowed-in-an-hand-luggage.png"
-categories: ["kettle-tips", "travel"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "hand luggage", "travel tips", "airport security"]
 canonical: "https://www.electrickettlesguide.com/is-an-electric-kettle-allowed-in-hand-luggage/"

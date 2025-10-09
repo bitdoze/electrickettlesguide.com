@@ -5,7 +5,7 @@ description: "Discover the most stylish and efficient pink electric kettles for 
 image: "../../assets/images/best-pink-electric-kettle.jpeg"
 categories: ["best-kettle-models"]
 authors: ["Dragos"]
-tags: ["pink kettles", "electric kettles", "kitchen appliances"]
+tags: ["pink kettles", "electric-kettles", "kitchen-appliances"]
 canonical: "https://www.electrickettlesguide.com/best-pink-electric-kettles/"
 ---
 

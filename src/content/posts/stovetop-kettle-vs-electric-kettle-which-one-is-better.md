@@ -3,7 +3,7 @@ date: 2024-01-21T00:00:00Z
 title: "Stovetop Kettle vs Electric Kettle: A Comprehensive Comparison"
 description: "Explore the pros and cons of stovetop and electric kettles. Learn about energy efficiency, speed, and design features to help you choose the best kettle for your needs."
 image: "../../assets/images/Electric-kettle-vs-stovetop-kettle.png"
-categories: ["best-kettle-models", "appliance-comparison"]
+categories: ["best-kettle-models"]
 authors: ["Dragos"]
 tags: ["stovetop kettle", "electric kettle", "energy efficiency", "kitchen appliances"]
 canonical: "https://www.electrickettlesguide.com/stovetop-kettle-vs-electric-kettle-which-one-is-better/"

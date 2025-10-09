@@ -3,8 +3,8 @@ date: 2024-01-08T00:00:00Z
 title: "How to Clean an Electric Kettle: The Ultimate Guide"
 description: "Learn effective methods to clean and maintain your electric kettle. Discover natural and professional cleaning solutions to remove limescale, ensure hygiene, and prolong your kettle's lifespan."
 image: "../../assets/images/How-to-clean-an-electric-kettle.png"
-categories: ["kettle-tips", "maintenance"]
-authors: ["ElectricKettlesGuide Team"]
+categories: ["kettle-tips"]
+authors: ["Dragos"]
 tags: ["electric kettle", "cleaning", "limescale", "maintenance"]
 canonical: "https://www.electrickettlesguide.com/how-to-clean-an-electric-kettle/"
 ---

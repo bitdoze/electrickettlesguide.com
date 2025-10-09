@@ -3,7 +3,7 @@ date: 2024-01-19T00:00:00Z
 title: "How to Boil Eggs in an Electric Kettle: A Comprehensive Guide"
 description: "Learn the safe and efficient method of boiling eggs using an electric kettle. Discover tips, precautions, and the best practices for perfect boiled eggs without a stove."
 image: "../../assets/images/How-to-Boil-Eggs-Into-an-Electric-Kettle.jpg"
-categories: ["kettle-tips", "cooking-hacks"]
+categories: ["kettle-tips", "cooking"]
 authors: ["Dragos"]
 tags: ["electric kettle", "boiling eggs", "kitchen hacks", "travel cooking"]
 canonical: "https://www.electrickettlesguide.com/how-to-boil-eggs-into-an-electric-kettle/"

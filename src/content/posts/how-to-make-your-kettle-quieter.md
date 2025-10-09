@@ -3,7 +3,7 @@ date: 2024-01-16T00:00:00Z
 title: "How to Make Your Kettle Quieter: A Comprehensive Guide"
 description: "Discover effective methods to reduce the noise of your electric kettle. Learn about design features, maintenance tips, and creative solutions for a more peaceful brewing experience."
 image: "../../assets/images/Presentation-16_9-1280x720-px-Custom-dimensions-1.png"
-categories: ["kettle-tips", "maintenance"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "noise reduction", "maintenance", "design features"]
 canonical: "https://www.electrickettlesguide.com/how-to-make-your-kettle-quieter/"

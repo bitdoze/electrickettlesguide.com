@@ -3,7 +3,7 @@ date: 2024-01-18T00:00:00Z
 title: "How to Clean an Electric Kettle with Coke: An Unconventional but Effective Method"
 description: "Discover the surprising effectiveness of using Coca-Cola to clean your electric kettle. Learn about the science behind this method, step-by-step instructions, and benefits of this unconventional cleaning technique."
 image: "../../assets/images/how-to-clean-an-electric-kettle-with-coke.jpeg"
-categories: ["kettle-tips", "cleaning-hacks"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "cleaning", "Coca-Cola", "limescale removal"]
 canonical: "https://www.electrickettlesguide.com/how-clean-electric-kettle-with-coke/"

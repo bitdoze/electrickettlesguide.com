@@ -3,9 +3,9 @@ date: 2024-01-24T00:00:00Z
 title: "How to Descale an Electric Kettle Naturally: A Comprehensive Guide"
 description: "Learn eco-friendly and cost-effective methods to descale your electric kettle without harsh chemicals. Discover natural solutions using common household items to keep your kettle clean and efficient."
 image: "../../assets/images/Presentation-16_9-1920x1080-px-Custom-dimensions.jpeg"
-categories: ["kettle-tips", "maintenance"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
-tags: ["electric kettle", "descaling", "natural cleaning", "limescale removal"]
+tags: ["electric kettle", "descaling", "cleaning", "limescale removal"]
 canonical: "https://www.electrickettlesguide.com/how-descale-an-electric-kettle/"
 ---
 Descaling your electric kettle is crucial for maintaining its efficiency and ensuring the best-tasting beverages. This guide will walk you through natural, eco-friendly methods to descale your kettle without using harsh chemicals.

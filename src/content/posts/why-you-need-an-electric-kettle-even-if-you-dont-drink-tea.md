@@ -3,7 +3,7 @@ date: 2024-01-10T00:00:00Z
 title: "10 Surprising Reasons You Need an Electric Kettle (Even if You Don't Drink Tea)"
 description: "Discover the versatility of electric kettles beyond tea-making. Learn how this appliance can save time, energy, and enhance various aspects of your daily life, from cooking to home spa treatments."
 image: "../../assets/images/Why-You-Need-an-Electric-Kettle-Even-if-You-Dont-Drink-Tea.jpg"
-categories: ["kettle-tips", "lifestyle"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "kitchen appliances", "energy efficiency", "cooking tips"]
 canonical: "https://www.electrickettlesguide.com/why-you-need-an-electric-kettle-even-if-you-dont-drink-tea/"

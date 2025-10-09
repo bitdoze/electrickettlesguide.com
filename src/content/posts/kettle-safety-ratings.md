@@ -3,7 +3,7 @@ date: 2024-01-16T00:00:00Z
 title: "Understanding Kettle Safety Ratings: The Importance of the Electric Kettle Minimum Mark"
 description: "Learn about electric kettle safety ratings, the significance of the minimum water mark, and how to ensure safe and efficient use of your kettle. Discover tips for extending your kettle's lifespan and saving energy."
 image: "../../assets/images/Presentation-16_9-1280x720-px.png"
-categories: ["kettle-tips", "safety"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "safety ratings", "minimum mark", "energy efficiency"]
 canonical: "https://www.electrickettlesguide.com/kettle-safety-ratings/"

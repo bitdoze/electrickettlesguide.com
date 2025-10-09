@@ -3,7 +3,7 @@ date: 2024-01-21T00:00:00Z
 title: "How to Cook Maggi Noodles Using an Electric Kettle: A Quick and Easy Guide"
 description: "Discover how to prepare delicious Maggi noodles using just an electric kettle. Learn about the best kettle features for cooking and get step-by-step instructions for a perfect bowl of instant noodles."
 image: "../../assets/images/How-to-Cook-Maggi-Using-A-Electric-Kettles.jpg"
-categories: ["kettle-tips", "quick-recipes"]
+categories: ["kettle-tips", "cooking"]
 authors: ["Dragos"]
 tags: ["electric kettle", "Maggi noodles", "quick meals", "cooking hacks"]
 canonical: "https://www.electrickettlesguide.com/how-to-cook-maggi-using-a-electric-kettles/"

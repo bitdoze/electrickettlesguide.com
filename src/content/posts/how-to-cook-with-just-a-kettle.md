@@ -3,7 +3,7 @@ date: 2024-01-19T00:00:00Z
 title: "Mastering the Art of Cooking with Just a Kettle: A Comprehensive Guide"
 description: "Discover innovative ways to cook delicious meals using only an electric kettle. Learn time-saving techniques, safety tips, and explore a variety of recipes perfect for dorm life, travel, or minimalist cooking."
 image: "../../assets/images/Cooking-with-an-electric-kettle.png"
-categories: ["kettle-tips", "cooking-hacks"]
+categories: ["kettle-tips", "cooking"]
 authors: ["Dragos"]
 tags: ["electric kettle", "cooking", "recipes", "dorm life", "travel cooking"]
 canonical: "https://www.electrickettlesguide.com/how-to-cook-with-just-a-kettle/"

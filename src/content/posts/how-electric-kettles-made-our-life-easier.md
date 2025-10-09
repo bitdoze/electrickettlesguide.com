@@ -3,7 +3,7 @@ date: 2024-01-27T00:00:00Z
 title: "How Electric Kettles Revolutionized Our Daily Lives"
 description: "Discover the numerous ways electric kettles have simplified our routines. Learn about their efficiency, versatility, and how to choose the perfect model for your needs."
 image: "../../assets/images/How-electric-kettles-made-our-life-easier.png"
-categories: ["kettle-tips", "lifestyle"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "efficiency", "convenience", "kitchen appliances"]
 canonical: "https://www.electrickettlesguide.com/how-electric-kettles-made-our-life-easier/"

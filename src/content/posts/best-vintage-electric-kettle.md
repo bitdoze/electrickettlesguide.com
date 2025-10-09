@@ -3,9 +3,9 @@ date: 2024-01-07T00:00:00Z
 title: "Best Vintage/Retro Electric Kettles: Nostalgia Meets Modern Functionality"
 description: "Discover the charm of vintage electric kettles with modern features. Learn about the best retro-style kettles that combine classic aesthetics with contemporary performance."
 image: "../../assets/images/Presentation-16_9-1920x1080-px-Custom-dimensions-3.png"
-categories: ["best-kettle-models", "kitchen-appliances"]
+categories: ["best-kettle-models"]
 authors: ["Dragos"]
-tags: ["vintage kettle", "retro kettle", "electric kettle", "kitchen design"]
+tags: ["vintage-kettle", "retro-kettle", "electric-kettle"]
 canonical: "https://www.electrickettlesguide.com/best-vintage-electric-kettle/"
 ---
 

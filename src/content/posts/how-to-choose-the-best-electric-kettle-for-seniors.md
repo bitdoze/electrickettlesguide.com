@@ -3,7 +3,7 @@ date: 2024-02-25T00:00:00Z
 title: "How to Choose the Best Electric Kettle for Seniors: A Comprehensive Guide"
 description: "Discover the key features to look for when selecting an electric kettle for seniors. Learn about top models, safety considerations, and versatile uses of electric kettles to enhance daily life for older adults."
 image: "../../assets/images/How-to-Choose-the-Best-Electric-Kettle-for-Seniors.jpg"
-categories: ["kettle-tips", "senior-living"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["electric kettle", "seniors", "safety features", "ease of use"]
 canonical: "https://www.electrickettlesguide.com/how-to-choose-the-best-electric-kettle-for-seniors/"

@@ -3,7 +3,7 @@ date: 2024-01-15T00:00:00Z
 title: "How to Clean Ceramic Electric Kettles: A Comprehensive Guide"
 description: "Learn effective methods to clean and maintain your ceramic electric kettle. Discover natural and commercial cleaning solutions to remove mineral buildup and ensure your kettle's longevity and efficiency."
 image: "../../assets/images/How-to-Clean-Ceramic-Electric-Kettles.png"
-categories: ["kettle-tips", "maintenance"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["ceramic kettle", "cleaning", "maintenance", "hard water"]
 canonical: "https://www.electrickettlesguide.com/how-to-clean-ceramic-electric-kettles/"

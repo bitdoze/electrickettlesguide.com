@@ -3,7 +3,7 @@ date: 2024-01-06T00:00:00Z
 title: "Stainless Steel vs Glass vs Plastic Kettles: The Ultimate Comparison"
 description: "Discover the pros and cons of stainless steel, glass, and plastic electric kettles. Learn which material best suits your needs for safety, durability, and style in this comprehensive guide."
 image: "../../assets/images/Stainlees-steel-vs-glass-vs-Plastic-kettle.png"
-categories: ["kettle-tips", "appliance-comparison"]
+categories: ["kettle-tips"]
 authors: ["Dragos"]
 tags: ["stainless steel kettle", "glass kettle", "plastic kettle", "kettle materials"]
 canonical: "https://www.electrickettlesguide.com/stainless-steel-kettle/"

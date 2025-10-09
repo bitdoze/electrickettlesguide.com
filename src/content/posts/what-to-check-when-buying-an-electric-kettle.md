@@ -3,7 +3,7 @@ date: 2024-01-20T00:00:00Z
 title: "The Ultimate Guide: What to Check When Buying an Electric Kettle"
 description: "Discover the essential features to look for when purchasing an electric kettle. From capacity and materials to safety features and design, learn how to choose the perfect kettle for your needs."
 image: "../../assets/images/What-to-Check-When-Buying-an-Electric-Kettle.png"
-categories: ["best-kettle-models", "kettle-tips"]
+categories: ["kettle-tips", "guides"]
 authors: ["Dragos"]
 tags: ["electric kettle", "buying guide", "kitchen appliances", "energy efficiency"]
 canonical: "https://www.electrickettlesguide.com/what-to-check-when-buying-an-electric-kettle/"
